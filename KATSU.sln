@@ -46,7 +46,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KATSU", "KATSU", "{160DA988
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KATSU.Project.KATSU", "src\Project\KATSU\website\KATSU.Project.KATSU.csproj", "{BE27848D-2FF5-42DF-9324-667D66D47E30}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrap", "Bootstrap", "{CB31D0CF-43E4-47F3-876D-AAD5BA121FC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theme", "Theme", "{CB31D0CF-43E4-47F3-876D-AAD5BA121FC2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KATSU.Foundation.Bootstrap", "src\Foundation\Bootstrap\website\KATSU.Foundation.Bootstrap.csproj", "{44403DB5-5AF0-4BB8-A227-E9A8416947A4}"
 EndProject
@@ -87,6 +87,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KATSU.Foundation.Enumeration", "src\Foundation\Enumeration\website\KATSU.Foundation.Enumeration.csproj", "{5019A3D3-25AA-4DC1-9E0C-21274AAAFBFA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KATSU.Feature.Package", "src\Feature\Package\website\KATSU.Feature.Package.csproj", "{BD83325A-6B4A-4BA1-8F90-54111C3F9893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KATSU.Foundation.Theme", "src\Foundation\Theme\website\KATSU.Foundation.Theme.csproj", "{08E160B2-19EA-4362-97CB-040DDBC7819E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -170,6 +172,10 @@ Global
 		{BD83325A-6B4A-4BA1-8F90-54111C3F9893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD83325A-6B4A-4BA1-8F90-54111C3F9893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD83325A-6B4A-4BA1-8F90-54111C3F9893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E160B2-19EA-4362-97CB-040DDBC7819E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E160B2-19EA-4362-97CB-040DDBC7819E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E160B2-19EA-4362-97CB-040DDBC7819E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E160B2-19EA-4362-97CB-040DDBC7819E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,6 +216,7 @@ Global
 		{FD17BA27-761F-4E08-9030-86796A6DACC3} = {C3F57797-2D54-4626-B842-51F30272E972}
 		{5019A3D3-25AA-4DC1-9E0C-21274AAAFBFA} = {FD17BA27-761F-4E08-9030-86796A6DACC3}
 		{BD83325A-6B4A-4BA1-8F90-54111C3F9893} = {BD4EBB3A-6949-4913-8CB0-B875945F2FE7}
+		{08E160B2-19EA-4362-97CB-040DDBC7819E} = {CB31D0CF-43E4-47F3-876D-AAD5BA121FC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {845F548C-FD53-4C61-AB7F-953C2225A13B}
