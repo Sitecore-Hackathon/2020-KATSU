@@ -8,8 +8,9 @@ namespace KATSU.Feature.Package.Models
     {
         string PackageName { get; set; }
         string PackageIdentifier { get; set; }
-        string PackageFile { get; set; }
+        File PackageFile { get; set; }
         string Documentation { get; set; }
+        string Summary { get; set; }
         IEnumerable<ISitecoreVersion> SitecoreVersion { get; set; }
         IEnumerable<IPerson> Contributors { get; set; }
     }
