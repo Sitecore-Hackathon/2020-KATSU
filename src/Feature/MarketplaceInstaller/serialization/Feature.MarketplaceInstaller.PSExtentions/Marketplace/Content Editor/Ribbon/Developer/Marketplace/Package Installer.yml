@@ -1,0 +1,47 @@
+﻿---
+ID: "771ee8e8-2cff-4dfa-8884-0eb9b84f7ac1"
+Parent: "3074646c-2eef-487d-b6be-861d2a64aba1"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Marketplace/Content Editor/Ribbon/Developer/Marketplace/Package Installer
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/cloud_download.png
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    $config = [Sitecore.Configuration.Factory]::GetConfiguration()
+    $speSourceFolder = $config.sitecore."settings"."setting" | 
+        Where-Object { $_.Name -eq "KATSU.Marketplace.Url" } | 
+        Select-Object -First 1 -Expand value
+        
+              
+    $packagename = Show-Input "Please provide the package name" -DefaultValue "sampletest" 
+    
+    $packageversion = Show-Input "Please provide the package version" -DefaultValue "" 
+    
+    $url = "$($speSourceFolder)/$($packagename)/$($packageversion)/$($packagename).ashx"
+    
+    $fullpackagename="$($packagename).zip"
+    
+    $filepath = "$($SitecoreDataFolder)\packages\$($fullpackagename)" 
+    
+    
+    $wc = New-Object System.Net.WebClient
+    $wc.DownloadFile($url, $filepath)
+    
+    Install-Package -Path $fullpackagename -InstallMode Merge -MergeMode Merge
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T033456Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

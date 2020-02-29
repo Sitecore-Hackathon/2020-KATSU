@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.web">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <ApplicationIcon />
+	  <OutputType>Library</OutputType>
+	  <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Web.config" />
+    <Content Remove="Web.Debug.config" />
+    <Content Remove="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config" />
+    <None Include="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Core\website\KATSU.Foundation.Core.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\DI\website\KATSU.Foundation.DI.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Logging\website\KATSU.Foundation.Logging.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\ORM\website\KATSU.Foundation.ORM.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Search\website\KATSU.Foundation.Search.csproj" />
+  </ItemGroup>
+</Project>
