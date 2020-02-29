@@ -1,0 +1,8 @@
+---
+Role: |
+  KATSU\Project KATSU Content Author
+MemberOf:
+  Role: |
+    sitecore\Author
+  Role: |
+    sitecore\Designer
