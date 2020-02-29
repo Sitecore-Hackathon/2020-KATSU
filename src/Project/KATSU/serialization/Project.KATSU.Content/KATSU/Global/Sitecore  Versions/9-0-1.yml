@@ -1,0 +1,21 @@
+﻿---
+ID: "a51d77b2-ce10-40db-8cac-a18587a176c6"
+Parent: "dfebefae-e577-4801-a0f5-256cfab830f5"
+Template: "3e633134-bb87-4dc7-99cd-032761c67375"
+Path: "/sitecore/content/KATSU/Global/Sitecore  Versions/9-0-1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T173457Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cded453a-b13e-4ce3-8b90-63697d12b56f"
+      Hint: Sitecore Version Name
+      Value: 9.0.1

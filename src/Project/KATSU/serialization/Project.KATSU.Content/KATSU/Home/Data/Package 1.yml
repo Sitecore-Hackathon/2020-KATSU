@@ -12,6 +12,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T155646Z
+    - ID: "322b335c-dcf3-4ecf-86e9-ed10bfc03071"
+      Hint: Contributors
+      Type: Multilist with Search
+      Value: "{1EA5B4D5-7567-497F-B325-D96C440A6B73}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -25,3 +29,9 @@ Languages:
     - ID: "c82252e5-fe88-484d-926c-9f47c5c2db03"
       Hint: Summary
       Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - ID: "f730deaa-7083-4fab-98fe-8d9994f0d611"
+      Hint: Compatible Versions
+      Type: Multilist with Search
+      Value: |
+        {B01FF5E7-FF46-4559-8DF6-9A58FDF48333}
+        {B4B62B0B-2834-47EA-A9B9-45D94C1D2112}
