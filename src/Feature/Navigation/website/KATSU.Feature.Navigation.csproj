@@ -106,6 +106,7 @@
     <Content Include="Views\Navigation\Language.cshtml" />
     <Content Include="Views\Nav\Error.cshtml" />
     <Content Include="Views\Nav\MainNav.cshtml" />
+    <Content Include="Views\Navigation\LargeNavigation.cshtml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
