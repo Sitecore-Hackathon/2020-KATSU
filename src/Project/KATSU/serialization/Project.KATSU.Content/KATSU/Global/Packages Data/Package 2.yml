@@ -39,3 +39,11 @@ Languages:
     - ID: "c82252e5-fe88-484d-926c-9f47c5c2db03"
       Hint: Summary
       Value: Summary
+    - ID: "f730deaa-7083-4fab-98fe-8d9994f0d611"
+      Hint: Compatible Versions
+      Type: Multilist with Search
+      Value: |
+        {B4B62B0B-2834-47EA-A9B9-45D94C1D2112}
+        {657C6B90-31FB-4DBB-9838-4B3172FB853E}
+        {B01FF5E7-FF46-4559-8DF6-9A58FDF48333}
+        {A51D77B2-CE10-40DB-8CAC-A18587A176C6}
