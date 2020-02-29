@@ -7,5 +7,6 @@ namespace KATSU.Feature.Package.Factories
     public interface IPackageViewModelFactory
     {
         PackagesViewModel CreatePackageViewModel(IEnumerable<PackageSearchResultItem> packages, bool isExperienceEditor);
+        PackageViewModel CreatePackageViewModel(IPackage packageDataSource, bool isExperienceEditor);
     }
 }

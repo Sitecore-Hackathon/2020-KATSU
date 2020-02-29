@@ -1,9 +1,11 @@
+using Glass.Mapper.Sc;
 using System.Collections.Generic;
 using System.Linq;
 using KATSU.Feature.Package.Models;
-using KATSU.Feature.Packages;
+using KATSU.Feature.Package;
 using KATSU.Foundation.Content.Repositories;
 using KATSU.Foundation.Logging.Repositories;
+using System;
 using KATSU.Foundation.Search.Models;
 using Sitecore.ContentSearch.Linq.Utilities;
 using Sitecore.Data.Items;
@@ -12,13 +14,17 @@ namespace KATSU.Feature.Package.Services
 {
     public class PackageService : IPackageService
     {
+        private readonly IContentRepository _contentRepository;
         private readonly IContextRepository _contextRepository;
         private readonly ILogRepository _logRepository;
         private readonly IRenderingRepository _renderingRepository;
 
-        public PackageService(IContextRepository contextRepository,
-            ILogRepository logRepository, IRenderingRepository renderingRepository)
+        public PackageService(IContentRepository contentRepository,
+                              IContextRepository contextRepository,
+                              ILogRepository logRepository,
+                              IRenderingRepository renderingRepository)
         {
+            _contentRepository = contentRepository;
             _contextRepository = contextRepository;
             _logRepository = logRepository;
             _renderingRepository = renderingRepository;
@@ -51,6 +57,21 @@ namespace KATSU.Feature.Package.Services
                 // OR we could have populated a Glass model using:
                 // injectedSitecoreService.Populate(result);
             }
+        }
+        
+                public IPackage GetPackage(string packageId)
+        {
+            if (string.IsNullOrEmpty(packageId)) return null;
+
+            var dataSource = _contentRepository.GetItem<IPackage>(new GetItemByIdOptions
+            {
+                Id = new Guid(packageId)
+            });
+
+            if (dataSource != null) return dataSource;
+            _logRepository.Warn(Constants.Logging.Error.DataSourceError);
+
+            return null;
         }
 
         public bool IsExperienceEditor => _contextRepository.IsExperienceEditor;

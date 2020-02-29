@@ -2,13 +2,11 @@ using KATSU.Feature.Package.Mediators;
 using KATSU.Foundation.Core.Exceptions;
 using Sitecore.Mvc.Controllers;
 using System.Web.Mvc;
-using static KATSU.Feature.Packages.Constants;
 
 namespace KATSU.Feature.Package.Controllers
 {
     public class PackageController : SitecoreController
     {
-
         private readonly IPackageMediator _packageMediator;
 
         public PackageController(IPackageMediator packageMediator)
@@ -21,10 +19,27 @@ namespace KATSU.Feature.Package.Controllers
 
             switch (mediatorResponse.Code)
             {
-                case MediatorCodes.PackageSearchResponse.DataSourceError:
-                case MediatorCodes.PackageSearchResponse.ViewModelError:
+                case Constants.MediatorCodes.PackageSearchResponse.DataSourceError:
+                case Constants.MediatorCodes.PackageSearchResponse.ViewModelError:
                     return View("~/views/Package/Error.cshtml");
-                case MediatorCodes.PackageSearchResponse.Ok:
+                case Constants.MediatorCodes.PackageSearchResponse.Ok:
+                    return View(mediatorResponse.ViewModel);
+                default:
+                    throw new InvalidMediatorResponseCodeException(mediatorResponse.Code);
+            }
+        }
+
+        [HttpGet]
+        public ActionResult PackageDetails(string id, bool isNew = false)
+        {
+            var mediatorResponse = _packageMediator.RequestPackageDetailsViewModel(id);
+
+            switch (mediatorResponse.Code)
+            {
+                case Constants.MediatorCodes.PackageSearchResponse.DataSourceError:
+                case Constants.MediatorCodes.PackageSearchResponse.ViewModelError:
+                    return View("~/views/Package/Error.cshtml");
+                case Constants.MediatorCodes.PackageSearchResponse.Ok:
                     return View(mediatorResponse.ViewModel);
                 default:
                     throw new InvalidMediatorResponseCodeException(mediatorResponse.Code);

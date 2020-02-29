@@ -9,14 +9,30 @@ namespace KATSU.Feature.Package.Factories
 {
     public class PackageViewModelFactory : IPackageViewModelFactory
     {
-        private readonly IGlassHtml _glassHtml;
+     private readonly IGlassHtml _glassHtml;
 
         public PackageViewModelFactory(IGlassHtml glassHtml)
         {
             _glassHtml = glassHtml;
         }
+        
+        public PackageViewModel CreatePackageViewModel(IPackage packageDataSource, bool isExperienceEditor)
+        {
+            if (packageDataSource == null)
+                return new PackageViewModel();
 
-        public PackagesViewModel CreatePackageViewModel(IEnumerable<PackageSearchResultItem> packages, bool isExperienceEditor)
+            return new PackageViewModel
+            {
+                Id = packageDataSource.Id.ToString(),
+                PackageName = packageDataSource.PackageName,
+                PackageIdentifier = packageDataSource.PackageIdentifier,
+                PackageFile = packageDataSource.PackageFile,
+                Documentation = packageDataSource.Documentation,
+                IsExperienceEditor = isExperienceEditor
+            };
+        }
+        
+          public PackagesViewModel CreatePackageViewModel(IEnumerable<PackageSearchResultItem> packages, bool isExperienceEditor)
         {
             return new PackagesViewModel
             {

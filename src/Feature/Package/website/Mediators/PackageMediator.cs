@@ -1,11 +1,9 @@
-
 using KATSU.Feature.Package.Factories;
 using KATSU.Feature.Package.Services;
 using KATSU.Feature.Package.ViewModels;
 using KATSU.Foundation.Core.Models;
 using KATSU.Foundation.Core.Services;
 using System.Linq;
-using static KATSU.Feature.Packages.Constants;
 
 namespace KATSU.Feature.Package.Mediators
 {
@@ -15,8 +13,9 @@ namespace KATSU.Feature.Package.Mediators
         private readonly IMediatorService _mediatorService;
         private readonly IPackageViewModelFactory _packageViewModelFactory;
 
-        public PackageMediator(IPackageService packageService, IMediatorService mediatorService,
-            IPackageViewModelFactory packageViewModelFactory)
+        public PackageMediator(IPackageService packageService,
+                               IMediatorService mediatorService,
+                               IPackageViewModelFactory packageViewModelFactory)
         {
             _packageService = packageService;
             _mediatorService = mediatorService;
@@ -33,15 +32,32 @@ namespace KATSU.Feature.Package.Mediators
             var packageItemDataSource = _packageService.GetPackagesSearch(query);
 
             if (packageItemDataSource == null && !packageItemDataSource.Any())
-                return _mediatorService.GetMediatorResponse<PackagesViewModel>(MediatorCodes.PackageSearchResponse.DataSourceError);
+                return _mediatorService.GetMediatorResponse<PackagesViewModel>(Constants.MediatorCodes.PackageSearchResponse.DataSourceError);
 
             var viewModel =
                 _packageViewModelFactory.CreatePackageViewModel(packageItemDataSource, _packageService.IsExperienceEditor);
 
             if (viewModel == null)
-                return _mediatorService.GetMediatorResponse<PackagesViewModel>(MediatorCodes.PackageSearchResponse.ViewModelError);
+                return _mediatorService.GetMediatorResponse<PackagesViewModel>(Constants.MediatorCodes.PackageSearchResponse.ViewModelError);
 
-            return _mediatorService.GetMediatorResponse(MediatorCodes.PackageSearchResponse.Ok, viewModel);
+            return _mediatorService.GetMediatorResponse(Constants.MediatorCodes.PackageSearchResponse.Ok, viewModel);
+        }
+
+        public MediatorResponse<PackageViewModel> RequestPackageDetailsViewModel(string packageId)
+        {
+            var packageDataSource = _packageService.GetPackage(packageId);
+
+            if (packageDataSource == null)
+                return _mediatorService.GetMediatorResponse<PackageViewModel>(Constants.MediatorCodes.PackageSearchResponse.DataSourceError);
+
+            var viewModel =
+                _packageViewModelFactory.CreatePackageViewModel(packageDataSource, _packageService.IsExperienceEditor);
+
+            if (viewModel == null)
+                return _mediatorService.GetMediatorResponse<PackageViewModel>(Constants.MediatorCodes.PackageSearchResponse
+                    .ViewModelError);
+
+            return _mediatorService.GetMediatorResponse(Constants.MediatorCodes.PackageSearchResponse.Ok, viewModel);
         }
     }
 }
