@@ -22,6 +22,7 @@
     <link href="~/Content/layout.min.css" rel="stylesheet" type="text/css">
     <link href="~/Content/components.min.css" rel="stylesheet" type="text/css">
     <link href="~/Content/colors.min.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/styles.css" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
     <!-- Core JS files -->
     <script src="~/Scripts/main/jquery.min.js"></script>
@@ -39,6 +40,129 @@
 </head>
 <body>
     @Html.Sitecore().Placeholder("header")
+    <div id="skippedToContent">
+
+
+
+
+        <section role="main" class="page-home">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Create .NET apps faster with NuGet</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <form action="/packages" method="get">
+                                <div class="input-group">
+                                    <input name="q" type="text" class="form-control" id="search" aria-label="Enter packages to search" placeholder="Search for packages..." autocomplete="off" value="" autofocus="">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default btn-warning btn-search" type="submit" title="Search for packages" aria-label="Search">
+                                            <span class="ms-Icon ms-Icon--Search" aria-hidden="true"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                                <div id="autocomplete-results-container" class="text-left" tabindex="0"></div>
+
+                                <script type="text/html" id="autocomplete-results-row">
+                                    <!-- ko if: $data -->
+                                    <!-- ko if: $data.PackageRegistration -->
+                                    <div class="col-sm-4 autocomplete-row-id autocomplete-row-data">
+                                        <span data-bind="attr: { id: 'autocomplete-result-id-' + $data.PackageRegistration.Id, title: $data.PackageRegistration.Id }, text: $data.PackageRegistration.Id"></span>
+                                    </div>
+                                    <div class="col-sm-4 autocomplete-row-downloadcount text-right autocomplete-row-data">
+                                        <span data-bind="text: $data.DownloadCount + ' downloads'"></span>
+                                    </div>
+                                    <div class="col-sm-4 autocomplete-row-owners text-left autocomplete-row-data">
+                                        <span data-bind="text: $data.OwnersString + ' '"></span>
+                                    </div>
+                                    <!-- /ko -->
+                                    <!-- ko ifnot: $data.PackageRegistration -->
+                                    <div class="col-sm-12 autocomplete-row-id autocomplete-row-data">
+                                        <span data-bind="attr: { id: 'autocomplete-result-id-' + $data, title: $data  }, text: $data"></span>
+                                    </div>
+                                    <!-- /ko -->
+                                    <!-- /ko -->
+                                </script>
+
+                                <script type="text/html" id="autocomplete-results-template">
+                                    <!-- ko if: $data.data.length > 0 -->
+                                    <div data-bind="foreach: $data.data" id="autocomplete-results-list">
+                                        <a data-bind="attr: { id: 'autocomplete-result-row-' + $data, href: '/packages/' + $data, title: $data }" tabindex="-1">
+                                            <div data-bind="attr:{ id: 'autocomplete-container-' + $data }" class="autocomplete-results-row">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- /ko -->
+                                </script>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="circuit-board hidden-xs" role="img" data-bind="attr: { 'aria-label': label }" aria-label="NuGet.org has 38099087988 package downloads, 2157490 package versions, and 191403 unique packages.">
+                    <div class="circuit-board-label circuit-board-pd triangle">
+                        <span class="ms-font-xxl" data-bind="animateNumber: packageDownloads">38,099,087,988</span>
+                        <br>
+                        <span class="ms-fontSize-l">package downloads</span>
+                    </div>
+                    <div class="circuit-board-label circuit-board-pv triangle">
+                        <span class="ms-font-xxl" data-bind="animateNumber: packageVersions">2,157,490</span>
+                        <br>
+                        <span class="ms-fontSize-l">package versions</span>
+                    </div>
+                    <div class="circuit-board-label circuit-board-up triangle">
+                        <span class="ms-font-xxl" data-bind="animateNumber: uniquePackages">191,403</span>
+                        <br>
+                        <span class="ms-fontSize-l">unique packages</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center what-is-nuget">
+                <div class="row">
+                    <h2>What is NuGet?</h2>
+                    <p>
+                        NuGet is the package manager for .NET. The NuGet client tools provide the ability to produce and consume packages.
+                        The NuGet Gallery is the central package repository used by all package authors and consumers.
+                    </p>
+                </div>
+                <div class="row row-gap">
+                    <div class="col-sm-4">
+                        <a href="https://docs.microsoft.com/en-us/nuget/quickstart/use-a-package" title="Learn about how to use NuGet packages">
+                            <img alt="Learn to use packages" src="/Content/gallery/img/orange-circle.svg" onerror="this.src='https://www.nuget.org/Content/gallery/img/orange-circle-225x225.png'; this.onerror = null;" width="225" height="225">
+                            <h3>Learn</h3>
+                        </a>
+                        <p>
+                            New to NuGet? Start with a walkthrough showing how NuGet powers your .NET development.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="/packages" title="Explore packages available on NuGet.org">
+                            <img alt="Find packages" src="/Content/gallery/img/purple-circle.svg" onerror="this.src='https://www.nuget.org/Content/gallery/img/purple-circle-225x225.png'; this.onerror = null;" width="225" height="225">
+                            <h3>Explore</h3>
+                        </a>
+                        <p>
+                            Browse the thousands of packages that developers like you have created and shared with the .NET community.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package" title="Learn how to create a NuGet package">
+                            <img alt="Learn to create packages" src="/Content/gallery/img/blue-circle.svg" onerror="this.src='https://www.nuget.org/Content/gallery/img/blue-circle-225x225.png'; this.onerror = null;" width="225" height="225">
+                            <h3>Create</h3>
+                        </a>
+                        <p>
+                            Want to make your first NuGet package and share it with the community? Start with this walkthrough!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
     @Html.Sitecore().Placeholder("main")
     @Html.Sitecore().Placeholder("footer")
 </body>
