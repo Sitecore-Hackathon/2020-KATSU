@@ -1,0 +1,14 @@
+﻿---
+ID: "1d066641-b7aa-4d90-b050-087c6fddc5ee"
+Parent: "c1028cec-3e5c-41d8-b13d-aeb4b3355a97"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/Enumeration/Folders
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052033Z
