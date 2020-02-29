@@ -1,7 +1,7 @@
-﻿using PSGN.Feature.PageContent.ViewModels;
-using PSGN.Foundation.Core.Models;
+﻿using KATSU.Feature.PageContent.ViewModels;
+using KATSU.Foundation.Core.Models;
 
-namespace PSGN.Feature.PageContent.Mediators
+namespace KATSU.Feature.PageContent.Mediators
 {
     public interface IPageContentMediator
     {

@@ -1,10 +1,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
-using PSGN.Feature.PageContent.Mediators;
-using PSGN.Feature.PageContent.Services;
-using PSGN.Feature.PageContent.Factories;
+using KATSU.Feature.PageContent.Mediators;
+using KATSU.Feature.PageContent.Services;
+using KATSU.Feature.PageContent.Factories;
 
-namespace PSGN.Feature.PageContent.DI
+namespace KATSU.Feature.PageContent.DI
 {
     public class RegisterContainer : IServicesConfigurator
     {

@@ -1,8 +1,8 @@
-﻿@using PSGN.Feature.PageContent.ViewModels;
+﻿@using KATSU.Feature.PageContent.ViewModels;
 
 @model LinkItemViewModel
 
-@if (User.IsInRole("PSGN\\PSGN TEC Coordinator"))
+@if (User.IsInRole("KATSU\\KATSU TEC Coordinator"))
 {
 
     var url = Model.Link.Url + "?" + Model.Link.Query;

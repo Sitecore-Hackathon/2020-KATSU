@@ -1,8 +1,8 @@
-﻿using PSGN.Feature.PageContent.Models;
-using PSGN.Foundation.Content.Repositories;
-using PSGN.Foundation.Logging.Repositories;
+﻿using KATSU.Feature.PageContent.Models;
+using KATSU.Foundation.Content.Repositories;
+using KATSU.Foundation.Logging.Repositories;
 
-namespace PSGN.Feature.PageContent.Services
+namespace KATSU.Feature.PageContent.Services
 {
     public class PageContentService : IPageContentService
     {

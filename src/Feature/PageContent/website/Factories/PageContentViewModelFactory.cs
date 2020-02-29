@@ -1,8 +1,8 @@
 ﻿using Glass.Mapper.Sc;
-using PSGN.Feature.PageContent.Models;
-using PSGN.Feature.PageContent.ViewModels;
+using KATSU.Feature.PageContent.Models;
+using KATSU.Feature.PageContent.ViewModels;
 
-namespace PSGN.Feature.PageContent.Factories
+namespace KATSU.Feature.PageContent.Factories
 {
     public class PageContentViewModelFactory : IPageContentViewModelFactory
     {

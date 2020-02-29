@@ -1,7 +1,7 @@
-﻿using PSGN.Feature.PageContent.Models;
-using PSGN.Foundation.Search.Models;
+﻿using KATSU.Feature.PageContent.Models;
+using KATSU.Foundation.Search.Models;
 
-namespace PSGN.Feature.PageContent.Services
+namespace KATSU.Feature.PageContent.Services
 {
     public interface IPageContentService
     {

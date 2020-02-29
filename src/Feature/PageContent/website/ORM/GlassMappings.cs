@@ -1,7 +1,7 @@
 using Glass.Mapper.Sc.Maps;
-using PSGN.Feature.PageContent.Models;
+using KATSU.Feature.PageContent.Models;
 
-namespace PSGN.Feature.PageContent.ORM
+namespace KATSU.Feature.PageContent.ORM
 {
     public class GlassMappings : SitecoreGlassMap<IImageLink>
     {

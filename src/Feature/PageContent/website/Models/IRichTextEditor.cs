@@ -1,4 +1,4 @@
-﻿namespace PSGN.Feature.PageContent.Models
+﻿namespace KATSU.Feature.PageContent.Models
 {
     public interface IRichTextEditor : IRichTextEditorGlassBase
     {

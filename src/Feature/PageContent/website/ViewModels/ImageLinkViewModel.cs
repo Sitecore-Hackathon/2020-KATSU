@@ -1,6 +1,6 @@
 ﻿using Glass.Mapper.Sc.Fields;
 
-namespace PSGN.Feature.PageContent.ViewModels
+namespace KATSU.Feature.PageContent.ViewModels
 {
     public class ImageLinkViewModel
     {

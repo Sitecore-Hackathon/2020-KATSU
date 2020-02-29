@@ -1,16 +1,16 @@
-﻿using PSGN.Feature.PageContent.Mediators;
-using PSGN.Feature.PageContent.Models;
-using PSGN.Foundation.Content.Repositories;
-using PSGN.Foundation.Core.Exceptions;
+﻿using KATSU.Feature.PageContent.Mediators;
+using KATSU.Feature.PageContent.Models;
+using KATSU.Foundation.Content.Repositories;
+using KATSU.Foundation.Core.Exceptions;
 using Sitecore.Mvc.Controllers;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Sitecore.Data.Items;
 using System.Linq;
-using PSGN.Feature.PageContent.ViewModels;
+using KATSU.Feature.PageContent.ViewModels;
 using Sitecore.Links;
 
-namespace PSGN.Feature.PageContent.Controllers
+namespace KATSU.Feature.PageContent.Controllers
 {
     public class PageContentController : SitecoreController
     {

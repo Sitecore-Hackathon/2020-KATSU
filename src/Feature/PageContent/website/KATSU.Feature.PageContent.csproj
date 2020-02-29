@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PSGN.Feature.PageContent</RootNamespace>
     <AssemblyName>PSGN.Feature.PageContent</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -119,23 +119,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\Logging\website\PSGN.Foundation.Logging.csproj">
+    <ProjectReference Include="..\..\..\Foundation\Logging\website\KATSU.Foundation.Logging.csproj">
       <Project>{9B72C426-123C-4782-BEF8-0D52E5F2A396}</Project>
       <Name>PSGN.Foundation.Logging</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\ORM\website\PSGN.Foundation.ORM.csproj">
+    <ProjectReference Include="..\..\..\Foundation\ORM\website\KATSU.Foundation.ORM.csproj">
       <Project>{5E91A7D9-8E93-44FD-857F-F9CE145B6022}</Project>
       <Name>PSGN.Foundation.ORM</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\Search\website\PSGN.Foundation.Search.csproj">
+    <ProjectReference Include="..\..\..\Foundation\Search\website\KATSU.Foundation.Search.csproj">
       <Project>{22686DC6-4E6C-4D98-84B7-C48042F5B8FC}</Project>
       <Name>PSGN.Foundation.Search</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\Content\website\PSGN.Foundation.Content.csproj">
+    <ProjectReference Include="..\..\..\Foundation\Content\website\KATSU.Foundation.Content.csproj">
       <Project>{F8F55034-FA55-4D27-B115-0AB4EEB9A0A8}</Project>
       <Name>PSGN.Foundation.Content</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\Core\website\PSGN.Foundation.Core.csproj">
+    <ProjectReference Include="..\..\..\Foundation\Core\website\KATSU.Foundation.Core.csproj">
       <Project>{0C1E2FEC-AC54-4CF0-905A-890D3BF711D5}</Project>
       <Name>PSGN.Foundation.Core</Name>
     </ProjectReference>

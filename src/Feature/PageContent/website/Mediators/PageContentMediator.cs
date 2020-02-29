@@ -1,12 +1,12 @@
-﻿using PSGN.Feature.PageContent.Factories;
-using PSGN.Feature.PageContent.Models;
-using PSGN.Feature.PageContent.Services;
-using PSGN.Feature.PageContent.ViewModels;
-using PSGN.Foundation.Content.Repositories;
-using PSGN.Foundation.Core.Models;
-using PSGN.Foundation.Core.Services;
+﻿using KATSU.Feature.PageContent.Factories;
+using KATSU.Feature.PageContent.Models;
+using KATSU.Feature.PageContent.Services;
+using KATSU.Feature.PageContent.ViewModels;
+using KATSU.Foundation.Content.Repositories;
+using KATSU.Foundation.Core.Models;
+using KATSU.Foundation.Core.Services;
 
-namespace PSGN.Feature.PageContent.Mediators
+namespace KATSU.Feature.PageContent.Mediators
 {
     public class PageContentMediator : IPageContentMediator
     {

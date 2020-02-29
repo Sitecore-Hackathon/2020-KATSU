@@ -1,6 +1,6 @@
 ﻿using Glass.Mapper.Sc.Fields;
 
-namespace PSGN.Feature.PageContent.Models
+namespace KATSU.Feature.PageContent.Models
 {
     public interface ILinkItem : ILinkItemGlassBase
     {
