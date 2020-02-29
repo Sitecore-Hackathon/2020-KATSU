@@ -24,7 +24,7 @@ namespace KATSU.Feature.Package.Factories
                     PackageId = x.ItemId.ToString(),
                     PackageTitle= x.PackageName,
                     PackageSummary = x.Summary
-                })
+                }),
                 IsExperienceEditor = isExperienceEditor
             };
         }
