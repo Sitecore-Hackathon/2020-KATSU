@@ -2,7 +2,7 @@
 ID: "282a45af-39c8-4ba1-bb60-ee80064e962e"
 Parent: "faa532f0-8fd0-4a84-a7d7-37a2024b8f59"
 Template: "faa532f0-8fd0-4a84-a7d7-37a2024b8f59"
-Path: /sitecore/templates/Project/KATSU/Pages/Package Listing Page/__Standard Values
+Path: /sitecore/templates/Project/KATSU/Pages/Landing Page/__Standard Values
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
