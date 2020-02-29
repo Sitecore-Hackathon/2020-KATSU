@@ -1,0 +1,18 @@
+﻿---
+ID: "ede046b2-2bb6-4741-9368-e17051ac6119"
+Parent: "eddac6b5-e48c-481b-b795-ba95d29db238"
+Template: "ab154d3d-1126-4ab4-ac21-8b86e6bd70ea"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Marketplace/Content Editor/Ribbon/Security/Ownership
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T141106Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

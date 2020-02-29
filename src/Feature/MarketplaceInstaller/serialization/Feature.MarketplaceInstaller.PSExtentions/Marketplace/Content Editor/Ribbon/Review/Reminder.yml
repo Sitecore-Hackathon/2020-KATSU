@@ -1,0 +1,18 @@
+﻿---
+ID: "44eccef0-38f3-4228-882f-abfdeaa49c5b"
+Parent: "12d7d4bd-3e1f-4064-8fae-8f80d7c235ae"
+Template: "ab154d3d-1126-4ab4-ac21-8b86e6bd70ea"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Marketplace/Content Editor/Ribbon/Review/Reminder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T141105Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
