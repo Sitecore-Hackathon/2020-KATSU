@@ -4,28 +4,34 @@
 
 **Category:** Sitecore Marketplace Website
 
+The Solution tries to enhance the current Marketplace website by enabling the Sitecore developers and community to install packages directly from the Sitecore instance 
+
 This solution consists of two parts
-1- A new look for the Marketplace website
-2- Marketplace Installer Module
 
-The Marketplace Installer Module tries to help developers with installing marketplace sitecore packages, and save their time downloading and installign packages by providing a simple interface to install package by name and version.
+#####1. Sample Marketplace website
 
-This moule acts as a client side module that can be downloaded on any sitecore instances and uses the new Marketplace website as serverside.
+The new sample website enable contributors to upload their module package. Each new module will go through a certain workflow. 
 
-The enhancements on the Marketplace are building a new API to provide pacages to the Marketplace Installer Module. Additionally, provide a new looks and feels for the Marketplace website.
+The website also uses Sitecore CMS with Solr to enhance search experiences for users. The solution is trying to exploit as much as possible of Sitecore services to insure the maximum reusability and maintainability of the system with providing the optimum workflow for Sitecore developers.
 
-The website also uses Sitecore CMS with Solr to inhance search experiences for users. The soution is trying to exploit as much as possible of Sitecore services to insure the maximum reusibility and maintainability of the system with providing the optimum workflow for Sitecore developers.
+#####2. Marketplace Installer Module
+
+The Marketplace Installer Module tries to help developers with installing marketplace Sitecore packages, and save their time downloading and installing packages by providing a simple interface to install package by name.
+
+This module is built on top of Sitecore Powershell Extension Module.
 
 The two parts of this solution intend to simplify a developers task by helping them find the best match marketplace module and minimize the steps to install the correct package.
 
 
 ## Pre-requisites
-Marketplace Installer Module
-- Sitecore 9.3 
-- Sitecore powershell Extension v6
 
-Marketplace website
--Sitecore 9.3
+####Marketplace Installer Module
+- Sitecore 9.3 
+- Sitecore Powershell Extension -version 6
+- Marketplace new sample website
+
+####Marketplace website
+- Sitecore 9.3
 
 ## Installation
 
@@ -57,6 +63,12 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## Usage
 
+####Marketplace website
+
+The sample website will contains the following
+
+1. 
+
 Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
 
 Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
@@ -71,8 +83,6 @@ And you can embed external images too:
 
 ![Random](https://placeimg.com/480/240/any "Random")
 
+
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
