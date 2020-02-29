@@ -67,22 +67,28 @@ Remember you are using Markdown, you can provide code samples too:
 
 The sample website will contains the following
 
-1. 
+**Home Page**
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+The main page in the website contains navigation items to other parts of the website
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+**Contribute Page**
+Contribute pages allows Sitecore community members to upload a new module package. The submitted packages will be saved as Sitecore items in Sitecore tree. The packages will go through a specific workflow before sharing with the community.
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
 
-You can embed images of different formats too:
+**Discover Page**
 
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
+This page is used to search for available packages.
+A list of packages is displayed based on search keyword.
 
-And you can embed external images too:
+
+**Details Page**
+
+This page shows all package details. Also, a download link is available if a user prefers traditional package installation. 
+
 
 ![Random](https://placeimg.com/480/240/any "Random")
 
+##Enhancements
 
 ## Video
 
