@@ -24,8 +24,9 @@ SharedFields:
           s:par=""
           s:ph="main" />
         <r
-          uid="{9F9521DC-361E-428F-8340-416146A41EE0}"
-          p:after="*[1=2]" />
+          uid="{5B32920F-4D5D-444C-B3B1-D038B1CEF27E}">
+          <p:d />
+        </r>
       </d>
     </r>
 Languages:
