@@ -1,0 +1,28 @@
+﻿---
+ID: "791bc5e0-15a5-459e-b7f2-8788cf1c6a16"
+Parent: "d62e18f4-b43a-4828-abcd-6e573b5104ca"
+Template: "d62e18f4-b43a-4828-abcd-6e573b5104ca"
+Path: /sitecore/templates/Project/KATSU/Page Types/Home Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{E487748D-31F4-4A78-8C60-C91609B14B1E}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T053050Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
