@@ -30,7 +30,7 @@ namespace KATSU.Feature.Package.Controllers
         }
 
         [HttpGet]
-        public ActionResult PackageDetails(string id, bool isNew = false)
+        public ActionResult PackageDetails(string id)
         {
             var mediatorResponse = _packageMediator.RequestPackageDetailsViewModel(id);
 

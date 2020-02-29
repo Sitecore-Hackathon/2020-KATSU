@@ -27,9 +27,7 @@ Languages:
     - ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
       Hint: Language
       Type: Multilist
-      Value: |
-        {14EC67EF-0357-4E6A-B380-76571B35482B}
-        {D53DB93D-BB93-4733-A5EB-0144CC188402}
+      Value: 
     - ID: "ca32fbbd-4e65-49fe-a6be-6c1ad6c1436a"
       Hint: Copyrights
       Value: حقوق التأليف والنشر © 2019 المجلس التنفيذي لدبي. كل الحقوق محفوظة
@@ -55,6 +53,4 @@ Languages:
     - ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
       Hint: Language
       Type: Multilist
-      Value: |
-        {14EC67EF-0357-4E6A-B380-76571B35482B}
-        {D53DB93D-BB93-4733-A5EB-0144CC188402}
+      Value: 
