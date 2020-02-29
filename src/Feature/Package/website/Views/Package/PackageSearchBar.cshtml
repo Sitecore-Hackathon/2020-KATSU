@@ -20,23 +20,11 @@
 </div>
 
 <script>
-    $(function(){
+    $(function () {
         $("#package-search").submit(function (e) {
             e.preventDefault();
-            if (document.location.href.indexOf("?") < 0) {
-                var url = document.location.href + "?";
-            } else {
-                var url = document.location.href + "&";
-            }
-
-            if (document.location.href.indexOf("query") < 0) {
-                url = url + "query=" + $("#search-input").val();
-
-            } else {
-                url = url + "query=" + $("#search-input").val();
-
-            }
-
+            var url = document.location.origin + document.location.pathname;
+            url = url + "?query=" + $("#search-input").val();
             document.location = url;
         });
     });
