@@ -1,0 +1,18 @@
+﻿---
+ID: "810cfdad-c295-4082-bcc2-492a45bab340"
+Parent: "11fdeca0-5c2e-43c9-8bec-eaab0618ba75"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/renderings/Feature/Package/Package Search Bar
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: Views/Package/PackageSearchBar.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T124253Z
