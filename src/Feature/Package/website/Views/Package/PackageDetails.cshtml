@@ -5,29 +5,37 @@
 @if (Model != null)
 {
 
-<div class="row">
+    <div class="row">
 
 
-    <div class="col-12 col-lg-12">
-        <div class="card card-body">
+        <div class="col-12 col-lg-12">
+            <div class="card card-body">
 
 
-            <h5 class="font-weight-semibold">@Model.PackageName</h5>
-            <p class="mb-3">@Model.PackageSummary</p>
-
-            @if (!string.IsNullOrEmpty(Model.Contributors))
-            {
+                <h5 class="font-weight-semibold">@Model.PackageName - @Model.PackageIdentifier</h5>
+                <p class="mb-3">@Model.PackageSummary</p>
                 <ul class="list mb-3">
-                    <li><span class="font-weight-semibold">Contributors:</span> @Model.Contributors</li>
+                    @if (!string.IsNullOrEmpty(Model.Contributors))
+                    {
+
+                        <li><span class="font-weight-semibold">Contributors:</span> @Model.Contributors</li>
+
+                    }                    
+                    
+                    @if (!string.IsNullOrEmpty(Model.CompatabileVersion))
+                    {
+
+                        <li><span class="font-weight-semibold">Compatible Version:</span> @Model.CompatabileVersion</li>
+
+                    }
+
                 </ul>
-            }
 
-
-            @if (!string.IsNullOrEmpty(Model.PackageFile))
-            {
-                <p><a href="@Model.PackageFile"> Download</a></p>
-            }
+                @if (!string.IsNullOrEmpty(Model.PackageFile))
+                {
+                    <p><a href="@Model.PackageFile"> Download</a></p>
+                }
             </div>
+        </div>
     </div>
-</div>
 }

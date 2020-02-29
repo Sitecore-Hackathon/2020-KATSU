@@ -17,5 +17,7 @@ namespace KATSU.Feature.Package.ViewModels
         public string PackageSummary { get; set; }
         public string PackageId { get; set; }
         public string Contributors { get; set; }
+        public string CompatabileVersion { get; set; }
+
     }
 }

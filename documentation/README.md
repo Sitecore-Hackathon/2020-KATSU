@@ -1,24 +1,31 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Sitecore Marketplace Website
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+This solution consists of two parts
+1- A new look for the Marketplace website
+2- Marketplace Installer Module
+
+The Marketplace Installer Module tries to help developers with installing marketplace sitecore packages, and save their time downloading and installign packages by providing a simple interface to install package by name and version.
+
+This moule acts as a client side module that can be downloaded on any sitecore instances and uses the new Marketplace website as serverside.
+
+The enhancements on the Marketplace are building a new API to provide pacages to the Marketplace Installer Module. Additionally, provide a new looks and feels for the Marketplace website.
+
+The website also uses Sitecore CMS with Solr to inhance search experiences for users. The soution is trying to exploit as much as possible of Sitecore services to insure the maximum reusibility and maintainability of the system with providing the optimum workflow for Sitecore developers.
+
+The two parts of this solution intend to simplify a developers task by helping them find the best match marketplace module and minimize the steps to install the correct package.
+
 
 ## Pre-requisites
+Marketplace Installer Module
+- Sitecore 9.3 
+- Sitecore powershell Extension v6
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+Marketplace website
+-Sitecore 9.3
 
 ## Installation
 
