@@ -1,20 +1,22 @@
+using System.Collections.Generic;
 using System.Linq;
-using KATSU.Feature.Hero.Models;
+using KATSU.Feature.Package.Models;
+using KATSU.Feature.Packages;
 using KATSU.Foundation.Content.Repositories;
 using KATSU.Foundation.Logging.Repositories;
 using KATSU.Foundation.Search.Models;
 using Sitecore.ContentSearch.Linq.Utilities;
 using Sitecore.Data.Items;
 
-namespace KATSU.Feature.Hero.Services
+namespace KATSU.Feature.Package.Services
 {
-    public class HeroService : IHeroService
+    public class PackageService : IPackageService
     {
         private readonly IContextRepository _contextRepository;
         private readonly ILogRepository _logRepository;
         private readonly IRenderingRepository _renderingRepository;
 
-        public HeroService(IContextRepository contextRepository,
+        public PackageService(IContextRepository contextRepository,
             ILogRepository logRepository, IRenderingRepository renderingRepository)
         {
             _contextRepository = contextRepository;
@@ -23,32 +25,18 @@ namespace KATSU.Feature.Hero.Services
         }
 
         /// <summary>
-        ///     Get an item using the rendering repository
-        /// </summary>
-        /// <returns>The Hero datasource item from the Content API</returns>
-        public IHero GetHeroItems()
-        {
-            var dataSource = _renderingRepository.GetDataSourceItem<IHero>();
-
-            // Basic example of using the wrapped logger
-            if (dataSource == null)
-                _logRepository.Warn(Logging.Error.DataSourceError);
-
-            return dataSource;
-        }
-
-        /// <summary>
         ///     **** This method is not required/in use. It is here as an example of how to use the computed search field ****
         ///     Get an item from the index
         /// </summary>
-        /// <returns>The first item based on the Hero template</returns>
-        public BaseSearchResultItem GetHeroImagesSearch()
+        /// <returns>The first item based on the Search template</returns>
+        public IEnumerable<PackageSearchResultItem> GetPackagesSearch(string query)
         {
             // First setup your predicate
-            var predicate = PredicateBuilder.True<BaseSearchResultItem>();
-            predicate = predicate.And(item => item.Templates.Contains(Constants.Hero.TemplateId));
+            var predicate = PredicateBuilder.True<PackageSearchResultItem>();
+            predicate = predicate.And(item => item.Templates.Contains(Constants.Package.TemplateId));
             predicate = predicate.And(item => !item.Name.Equals("__Standard Values"));
-
+            if(!string.IsNullOrEmpty( query))
+                predicate = predicate.And(Item => Item.Name.Contains(query));
             // We could set the index manually using the line below (do not use magic strings, sample only)
             // var index = ContentSearchManager.GetIndex($"KATSU_{_contextRepository.GetDatabaseContext()}_index");
             // OR we could automate retrieval of the context index:
@@ -56,7 +44,7 @@ namespace KATSU.Feature.Hero.Services
 
             using (var context = contextIndex.CreateSearchContext())
             {
-                var result = context.GetQueryable<BaseSearchResultItem>().Where(predicate).First();
+                var result = context.GetQueryable<PackageSearchResultItem>().Where(predicate);
 
                 return result;
 

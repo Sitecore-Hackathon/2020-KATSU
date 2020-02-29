@@ -11,6 +11,16 @@ namespace KATSU.Feature.Packages
         {
             public static readonly Guid TemplateId = new Guid("{E356ADF4-96CC-43AD-B1E3-BF07C32F1259}");
         }
+
+        public static class MediatorCodes
+        {
+            public static class PackageSearchResponse
+            {
+                public const string DataSourceError = "HeroMediator.CreateHeroViewModel.DataSourceError";
+                public const string ViewModelError = "HeroMediator.CreateHeroViewModel.ViewModelError";
+                public const string Ok = "HeroMediator.CreateHeroViewModel.Ok";
+            }
+        }
     }
 
 }
