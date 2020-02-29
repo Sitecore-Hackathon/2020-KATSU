@@ -13,7 +13,7 @@ namespace KATSU.Feature.Package.Controllers
         {
             _packageMediator = packageMediator;
         }
-        public ActionResult PackageSearchList(string query)
+        public ActionResult PackageSearchResult(string query)
         {
             var mediatorResponse = _packageMediator.RequestPackageViewModel(query);
 
