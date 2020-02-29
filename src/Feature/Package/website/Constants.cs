@@ -22,11 +22,11 @@ namespace KATSU.Feature.Package
 
         public static class MediatorCodes
         {
-            public static class PackageResponse
+            public static class PackageSearchResponse
             {
-                public const string DataSourceError = "PackageMediator.RequestEntityDetailsViewModel.DataSourceError";
-                public const string ViewModelError = "PackageMediator.RequestEntityDetailsViewModel.ViewModelError";
-                public const string Ok = "PackageMediator.RequestEntityDetailsViewModel.Ok";
+                public const string DataSourceError = "HeroMediator.CreateHeroViewModel.DataSourceError";
+                public const string ViewModelError = "HeroMediator.CreateHeroViewModel.ViewModelError";
+                public const string Ok = "HeroMediator.CreateHeroViewModel.Ok";
             }
         }
     }

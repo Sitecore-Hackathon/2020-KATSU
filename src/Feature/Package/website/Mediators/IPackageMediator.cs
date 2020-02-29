@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,6 +9,7 @@ namespace KATSU.Feature.Package.Mediators
 {
     public interface IPackageMediator
     {
-        MediatorResponse<PackageViewModel> RequestPackageViewModel(string packageId);
+        MediatorResponse<PackageViewModel> RequestPackageDetailsViewModel(string packageId);
+        MediatorResponse<PackagesViewModel> RequestPackageViewModel(string query);
     }
 }

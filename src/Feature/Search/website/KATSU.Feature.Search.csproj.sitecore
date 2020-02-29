@@ -1,5 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <Site Server="demo.KATSU" UserName="sitecore\admin" IsRemoteSitecore="False" />
-  </PropertyGroup>
-</Project>

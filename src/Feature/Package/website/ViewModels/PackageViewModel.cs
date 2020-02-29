@@ -13,5 +13,8 @@ namespace KATSU.Feature.Package.ViewModels
         public string PackageFile { get; set; }
         public string Documentation { get; set; }
         public bool IsExperienceEditor { get; set; }
+        public string PackageTitle { get; set; }
+        public string PackageSummary { get; set; }
+        public string PackageId { get; set; }
     }
 }
