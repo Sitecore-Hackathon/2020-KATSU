@@ -94,10 +94,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KATSU.Feature.Navigation", "src\Feature\Navigation\website\KATSU.Feature.Navigation.csproj", "{297464F8-B28F-4FE4-8C7B-77767E8C3550}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{D47BF157-C2B2-4B5B-926E-8003058B92BA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KATSU.Feature.Search", "src\Feature\Search\website\KATSU.Feature.Search.csproj", "{922E9100-EDD5-45DC-BC29-21A9C576D7EA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -188,10 +184,6 @@ Global
 		{297464F8-B28F-4FE4-8C7B-77767E8C3550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{297464F8-B28F-4FE4-8C7B-77767E8C3550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{297464F8-B28F-4FE4-8C7B-77767E8C3550}.Release|Any CPU.Build.0 = Release|Any CPU
-		{922E9100-EDD5-45DC-BC29-21A9C576D7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{922E9100-EDD5-45DC-BC29-21A9C576D7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{922E9100-EDD5-45DC-BC29-21A9C576D7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{922E9100-EDD5-45DC-BC29-21A9C576D7EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,8 +227,6 @@ Global
 		{08E160B2-19EA-4362-97CB-040DDBC7819E} = {CB31D0CF-43E4-47F3-876D-AAD5BA121FC2}
 		{F5FE82E6-2C1E-4E09-BF1A-72DD53E33D4B} = {60DA3F20-DEED-4580-AE38-A296D76ADE79}
 		{297464F8-B28F-4FE4-8C7B-77767E8C3550} = {F5FE82E6-2C1E-4E09-BF1A-72DD53E33D4B}
-		{D47BF157-C2B2-4B5B-926E-8003058B92BA} = {60DA3F20-DEED-4580-AE38-A296D76ADE79}
-		{922E9100-EDD5-45DC-BC29-21A9C576D7EA} = {D47BF157-C2B2-4B5B-926E-8003058B92BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {845F548C-FD53-4C61-AB7F-953C2225A13B}

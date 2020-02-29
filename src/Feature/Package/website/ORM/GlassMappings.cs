@@ -1,6 +1,5 @@
 using Glass.Mapper.Sc.Maps;
 using KATSU.Feature.Package.Models;
-using KATSU.Feature.Packages;
 
 namespace KATSU.Feature.Package.ORM
 {

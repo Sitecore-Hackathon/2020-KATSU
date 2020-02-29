@@ -1,0 +1,21 @@
+﻿---
+ID: "7ecdb7b7-bb79-4870-8ff9-51c87c1c004c"
+Parent: "499b95bd-b5f5-4221-b054-af0ab8ddd277"
+Template: "3814fbfc-17a7-4785-b408-03bf2d3bc673"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Footer Items/Privacy policy
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T105443Z
+    - ID: "fd3b5df7-cd09-420c-bc2e-5c33b84c26f8"
+      Hint: Name
+      Value: Privacy policy

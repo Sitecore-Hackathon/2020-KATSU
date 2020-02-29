@@ -1,0 +1,18 @@
+﻿---
+ID: "dd9c2a99-e0db-4fd6-91f1-3b65b174f38d"
+Parent: "3814fbfc-17a7-4785-b408-03bf2d3bc673"
+Template: "3814fbfc-17a7-4785-b408-03bf2d3bc673"
+Path: /sitecore/templates/Project/Common/Content Types/Link Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T104125Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
