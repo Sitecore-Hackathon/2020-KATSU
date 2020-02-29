@@ -25,12 +25,12 @@ The two parts of this solution intend to simplify a developers task by helping t
 
 ## Pre-requisites
 
-###Marketplace Installer Module
+### Marketplace Installer Module
 - Sitecore 9.3 
 - Sitecore Powershell Extension -version 6
 - Marketplace new sample website
 
-###Marketplace website
+### Marketplace website
 - Sitecore 9.3
 
 ## Installation
@@ -63,7 +63,7 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## Usage
 
-####Marketplace website
+#### Marketplace website
 
 The sample website will contains the following
 
@@ -79,11 +79,11 @@ Contribute pages allows Sitecore community members to upload a new module packag
 
 The submitted packages will be saved as Sitecore items in Sitecore tree. 
 
-![Sitecore Tree](images/SitecoreTree.png?raw=true "Sitecore Tree")
+![Sitecore Tree](images/SitecoreTree.PNG?raw=true "Sitecore Tree")
 
 The packages will go through a specific workflow before sharing with the community.
 
-![Wokflow](images/Workflow.png?raw=true "Wokflow")
+![Wokflow](images/Workflow.PNG?raw=true "Wokflow")
 
 
 The approved packages will now be available in *Discover Page*
@@ -92,6 +92,7 @@ The approved packages will now be available in *Discover Page*
 
 This page is used to search for available packages.
 A list of packages is displayed based on search keyword.
+
 ![Discover Page](images/disc.png?raw=true "Discover Page")
 
 
@@ -102,7 +103,28 @@ This page shows all package details. Also, a download link is available if a use
 ![Details Page](images/details.png?raw=true "Details Page")
 
 
-##Enhancements
+#### Marketplace Installer Module
+The Marketplace Installer Module will allow the user to install packages with only packages
+
+The first step is to install the package "Marketplace Installer Package.zip"  your website as shown below
+
+![Installation](images/install.png?raw=true "install")
+
+Then you need to make sure that the setting "KATSU.Marketplace.Url"
+
+After that, the Install package button will appear under the Developer Ribbon
+
+![Package Installer](images/package_Installer.png?raw=true "Package Installer")
+
+once you click on it allows you to enter the package name then it will automatically download the package and install it in your Sitecore instance  
+
+![Package Installer Step 1](images/package_Installer_step1.png?raw=true "Package Installer Step 1")
+
+![Package Installer Step 2](images/package_Installer_step2.png?raw=true "Package Installer Step 2")
+
+
+
+## Enhancements
 
 The following are the planed enhancments on this solution 
 
@@ -113,3 +135,5 @@ The following are the planed enhancments on this solution
 
 ## Video
 
+Following is a youtube video that explains our feature:
+[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/sBm7SLdjieM/0.jpg)](https://www.youtube.com/watch?v=sBm7SLdjieM)
