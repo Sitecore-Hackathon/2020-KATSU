@@ -4,14 +4,9 @@
 
 @if (Model != null)
 {
-
     <div class="row">
-
-
         <div class="col-12 col-lg-12">
             <div class="card card-body">
-
-
                 <h5 class="font-weight-semibold">@Model.PackageName</h5>
                 <p class="mb-3">@Model.PackageSummary</p>
                 <ul class="list mb-3">
@@ -32,7 +27,6 @@
                     <br/>
                     Package Name:  @Model.PackageIdentifier
                 </p>
-
                 @if (!string.IsNullOrEmpty(Model.PackageFile))
                 {
                     <p><a href="@Model.PackageFile"> Download</a></p>

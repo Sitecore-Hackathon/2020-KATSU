@@ -17,11 +17,11 @@ SharedFields:
         Select-Object -First 1 -Expand value
         
               
-    $packagename = Show-Input "Please provide the package name" -DefaultValue "sampletest" 
+    $packagename = Show-Input "Please provide the package name" -DefaultValue "" 
     
-    $packageversion = Show-Input "Please provide the package version" -DefaultValue "" 
     
-    $url = "$($speSourceFolder)/$($packagename)/$($packageversion)/$($packagename).ashx"
+    
+    $url = "$($speSourceFolder)/$($packagename)/$($packagename).ashx"
     
     $fullpackagename="$($packagename).zip"
     
