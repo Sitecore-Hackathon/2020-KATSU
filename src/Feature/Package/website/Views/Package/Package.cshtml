@@ -1,0 +1,10 @@
+﻿@using KATSU.Feature.Package.ViewModels
+
+@model PackageViewModel
+
+@if (Model != null)
+{
+    <p>Package Name: @Model.PackageName</p>
+    <p>Package Identifier: @Model.PackageIdentifier</p>
+    <p><a href="@Model.PackageFile"> Download</a></p>
+}
