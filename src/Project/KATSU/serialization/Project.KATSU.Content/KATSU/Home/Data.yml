@@ -1,0 +1,14 @@
+﻿---
+ID: "66c7f1bc-e5e9-40e6-81e8-2e6663099e81"
+Parent: "c524f79c-6e73-4cb3-b471-6c8a1ff701ab"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/KATSU/Home/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T155621Z

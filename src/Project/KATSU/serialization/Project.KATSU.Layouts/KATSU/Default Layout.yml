@@ -1,0 +1,18 @@
+﻿---
+ID: "c8ff9ff1-8340-4304-9fa2-3e710582df06"
+Parent: "51eb1b74-d07d-45db-83b8-3f6bcddc0c53"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/KATSU/Default Layout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Layouts/KATSU/Default.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T145945Z
