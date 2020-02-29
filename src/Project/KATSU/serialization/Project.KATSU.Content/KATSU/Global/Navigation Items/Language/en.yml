@@ -1,0 +1,25 @@
+﻿---
+ID: "d53db93d-bb93-4733-a5eb-0144cc188402"
+Parent: "c7f3be9f-946f-4791-a040-27edc479537c"
+Template: "9c18f052-1fcf-468a-a225-ddfec37ec48e"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Language/en
+DB: master
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191217T075608Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191217T075412Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "4b628177-7e15-42b2-9a38-77dd1e9f57b2"
+Parent: "a8292d62-86ef-4dd4-9a2e-7e229307716c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Navigation/_LinkItem/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T104008Z
