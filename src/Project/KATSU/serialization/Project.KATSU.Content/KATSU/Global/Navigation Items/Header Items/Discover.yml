@@ -1,0 +1,35 @@
+﻿---
+ID: "b2814734-fd04-4b76-9c96-e8e0d384ba34"
+Parent: "09ce0c89-a9ca-44d1-bc72-8ce9b2d97946"
+Template: "3814fbfc-17a7-4785-b408-03bf2d3bc673"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Header Items/Discover
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T111022Z
+    - ID: "49fddaf0-02d8-4a3b-a291-41acee1191d9"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D3EA332-6C94-4B81-A58D-6381E4C1DA34}" />
+    - ID: "a2b7e8ec-8ab4-4e66-b042-d5cddddf9125"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{D778DD38-E4A0-4654-B1E4-14D8A41920B7}" />
+    - ID: "f61ff6d4-9b90-4844-9b32-08ef91cc3718"
+      Hint: Description
+      Value: |
+        <p>Browse through all Sitecore modules
+        <br />
+        Discover all the modules available for Sitecore and find the ones for the site that you are building.</p>
+    - ID: "fd3b5df7-cd09-420c-bc2e-5c33b84c26f8"
+      Hint: Name
+      Value: Discover

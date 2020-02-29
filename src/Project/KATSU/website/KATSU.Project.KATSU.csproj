@@ -26,4 +26,9 @@
     </PackageReference>
     <PackageReference Include="Sitecore.Mvc.Analytics" Version="9.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="Views\Layouts\KATSU\Limitless.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

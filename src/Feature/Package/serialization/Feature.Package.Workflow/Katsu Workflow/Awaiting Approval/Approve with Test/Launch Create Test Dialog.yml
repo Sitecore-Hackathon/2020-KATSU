@@ -1,0 +1,14 @@
+﻿---
+ID: "76509be3-7754-4f13-961a-112a16139bb4"
+Parent: "122b6843-c367-416f-8ac4-534e89edbf0f"
+Template: "dc773c4f-df6c-4ff0-927d-bc4069003687"
+Path: /sitecore/system/Workflows/Katsu Workflow/Awaiting Approval/Approve with Test/Launch Create Test Dialog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140219T142805

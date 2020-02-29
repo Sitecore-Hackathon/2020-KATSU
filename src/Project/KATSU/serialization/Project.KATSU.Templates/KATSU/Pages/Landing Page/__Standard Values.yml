@@ -1,0 +1,62 @@
+﻿---
+ID: "282a45af-39c8-4ba1-bb60-ee80064e962e"
+Parent: "faa532f0-8fd0-4a84-a7d7-37a2024b8f59"
+Template: "faa532f0-8fd0-4a84-a7d7-37a2024b8f59"
+Path: /sitecore/templates/Project/KATSU/Pages/Landing Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{C8FF9FF1-8340-4304-9FA2-3E710582DF06}">
+        <r
+          id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
+          ph="main"
+          uid="{7DCE2A09-64D7-44C1-A4F2-EA913B7DD2C3}" />
+        <r
+          id="{AE02754C-CD48-4A93-8D86-D00512C1CF02}"
+          ph="main"
+          uid="{B2A12587-16D6-43C5-8B9E-26A99721C4C9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7BB9AEF3-5365-428A-84AB-C0B569FB1D1D}"
+              p:before="*"
+              s:id="{AE02754C-CD48-4A93-8D86-D00512C1CF02}"
+              s:ph="main" />
+            <r
+              uid="{E2085524-66E5-41CE-94EE-76D6C93C0A52}"
+              p:after="r[@uid='{7BB9AEF3-5365-428A-84AB-C0B569FB1D1D}']"
+              s:id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
+              s:ph="main" />
+            <r
+              uid="{474C8DC5-7ACF-48F8-84AB-77833263523C}"
+              p:after="*[1=2]"
+              s:id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T145012Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

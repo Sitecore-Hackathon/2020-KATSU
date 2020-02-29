@@ -13,12 +13,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Content\bootstrap-grid.css" />
+    <None Remove="Content\bootstrap-grid.min.css" />
     <None Remove="Content\bootstrap-reboot.css" />
+    <None Remove="Content\bootstrap-reboot.min.css" />
     <None Remove="Content\bootstrap.css" />
+    <None Remove="Content\bootstrap.min.css" />
+    <None Remove="Content\bootstrap_limitless.min.css" />
+    <None Remove="Content\colors.min.css" />
+    <None Remove="Content\components.css" />
+    <None Remove="Content\components.min.css" />
+    <None Remove="Content\icons\icomoon\fonts\icomoon.eot" />
+    <None Remove="Content\icons\icomoon\fonts\icomoon.svg" />
+    <None Remove="Content\icons\icomoon\fonts\icomoon.ttf" />
+    <None Remove="Content\icons\icomoon\fonts\icomoon.woff" />
+    <None Remove="Content\icons\icomoon\styles.min.css" />
+    <None Remove="Content\layout.min.css" />
+    <None Remove="Content\styles.css" />
     <None Remove="Scripts\bootstrap.js" />
     <None Remove="Scripts\esm\popper-utils.js" />
     <None Remove="Scripts\esm\popper.js" />
     <None Remove="Scripts\jquery-3.0.0.js" />
+    <None Remove="Scripts\main\bootstrap.bundle.min.js" />
+    <None Remove="Scripts\main\jquery.min.js" />
+    <None Remove="Scripts\plugins\loaders\blockui.min.js" />
+    <None Remove="Scripts\plugins\ui\prism.min.js" />
+    <None Remove="Scripts\plugins\ui\ripple.min.js" />
+    <None Remove="Scripts\plugins\ui\slinky.min.js" />
+    <None Remove="Scripts\plugins\ui\sticky.min.js" />
     <None Remove="Scripts\popper-utils.js" />
     <None Remove="Scripts\popper.js" />
     <None Remove="Scripts\umd\popper-utils.js" />
@@ -26,12 +47,63 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap_limitless.min.css" />
+    <Content Include="Content\colors.min.css" />
+    <Content Include="Content\components.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\components.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\icons\icomoon\fonts\icomoon.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\icons\icomoon\fonts\icomoon.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\icons\icomoon\fonts\icomoon.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\icons\icomoon\fonts\icomoon.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\icons\icomoon\styles.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\layout.min.css" />
+    <Content Include="Content\styles.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
+    <Content Include="Scripts\main\bootstrap.bundle.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\main\jquery.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\loaders\blockui.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\ui\prism.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\ui\ripple.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\ui\slinky.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\ui\sticky.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\umd\popper.js" />

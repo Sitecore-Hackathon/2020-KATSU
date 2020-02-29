@@ -41,7 +41,8 @@ namespace KATSU.Feature.Package.Factories
                     PackageTitle= x.PackageName,
                     PackageSummary = x.Summary
                 }),
-                IsExperienceEditor = isExperienceEditor
+                IsExperienceEditor = isExperienceEditor,
+                TotalResults = packages.Count()
             };
         }
     }

@@ -1,0 +1,35 @@
+﻿---
+ID: "fe0cfd48-23c2-4991-924a-cadffca86663"
+Parent: "c524f79c-6e73-4cb3-b471-6c8a1ff701ab"
+Template: "fcf4da28-edaa-4638-9442-1a5404eea642"
+Path: /sitecore/content/KATSU/Home/Contribute
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{24D158E5-9331-4ADD-B3F5-7E5C2E5DB560}"
+          p:after="r[@uid='{9F9521DC-361E-428F-8340-416146A41EE0}']"
+          s:id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
+          s:ph="main" />
+        <r
+          uid="{3D8EB6C0-F866-435F-A3E0-0E5E58954C53}"
+          p:after="*[1=2]"
+          s:id="{AE02754C-CD48-4A93-8D86-D00512C1CF02}"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T192812Z

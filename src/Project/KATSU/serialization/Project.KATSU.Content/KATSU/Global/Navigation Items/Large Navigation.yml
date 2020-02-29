@@ -1,0 +1,82 @@
+﻿---
+ID: "04f03835-ca77-4a54-895b-2e60ff3cb56d"
+Parent: "c30f9913-5898-4781-bcc0-923b0bfd519b"
+Template: "60ae2837-f0d6-492a-94d2-1bb5ec939cc5"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Large Navigation
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191223T102225Z
+    - ID: "586da53d-b92c-4edd-b31f-c5cb7130abd0"
+      Hint: Header Items
+      Type: Multilist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "876db511-15f6-4c95-ab6d-b5e9f1ecc8f0"
+      Hint: Footer Items
+      Type: Multilist
+      Value: 
+    - ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
+      Hint: Language
+      Type: Multilist
+      Value: |
+        {14EC67EF-0357-4E6A-B380-76571B35482B}
+        {D53DB93D-BB93-4733-A5EB-0144CC188402}
+    - ID: "ca32fbbd-4e65-49fe-a6be-6c1ad6c1436a"
+      Hint: Copyrights
+      Value: حقوق التأليف والنشر © 2019 المجلس التنفيذي لدبي. كل الحقوق محفوظة
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191223T100715Z
+    - ID: "586da53d-b92c-4edd-b31f-c5cb7130abd0"
+      Hint: Header Items
+      Type: Multilist
+      Value: |
+        {8E669DE0-D85D-40A8-8E29-AE21A3C30665}
+        {213E42F0-0815-4421-81DE-64D470E73D15}
+        {B2814734-FD04-4B76-9C96-E8E0D384BA34}
+    - ID: "6ac28d8f-15c3-4ccd-865d-4934d6b5d468"
+      Hint: Related Item
+      Type: Multilist
+      Value: |
+        {B2814734-FD04-4B76-9C96-E8E0D384BA34}
+        {213E42F0-0815-4421-81DE-64D470E73D15}
+        {8E669DE0-D85D-40A8-8E29-AE21A3C30665}
+    - ID: "876db511-15f6-4c95-ab6d-b5e9f1ecc8f0"
+      Hint: Footer Items
+      Type: Multilist
+      Value: |
+        {109EBBD1-C24C-490F-8905-A254003A561B}
+        {7ECDB7B7-BB79-4870-8FF9-51C87C1C004C}
+        {CF98CC30-3959-485B-AFAD-7C45C74F1ED8}
+        {E43837F9-A79C-4E86-832E-39DF26345974}
+    - ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
+      Hint: Language
+      Type: Multilist
+      Value: 
+    - ID: "d169095c-15c9-416a-9292-dd9f0fb14608"
+      Hint: Summary
+      Value: |
+                <p>
+                                Become a member, and get more out of the marketplace ...
+                                Discover all the modules available for Sitecore and find the ones for the site that you are building.
+                            </p>
+    - ID: "f8f19c5e-abf6-42e1-8683-f34bd0163b17"
+      Hint: Title
+      Value: "What is Sitecore Marketplce ?"

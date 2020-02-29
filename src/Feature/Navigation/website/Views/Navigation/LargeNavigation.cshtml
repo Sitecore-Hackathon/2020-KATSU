@@ -1,0 +1,40 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@model RenderingModel
+<div id="skippedToContent">
+    <section role="main" class="page-home">
+
+        <div class="container text-center what-is-nuget" style="padding-bottom:170px;padding-top:150px">
+            <div class="row" style="padding-bottom:20px;">
+                <h2> @Html.Sitecore().Field("Title")</h2>
+                @Html.Sitecore().Field("Summary")
+            </div>
+
+            <div class="row row-gap">
+                @{
+                    Sitecore.Data.Fields.MultilistField multiselectField = Model.Item.Fields["{6AC28D8F-15C3-4CCD-865D-4934D6B5D468}"];
+                    Sitecore.Data.Items.Item[] items = multiselectField.GetItems();
+
+
+                    foreach (var item in items)
+                    {
+
+                        Sitecore.Data.Fields.LinkField Link = item.Fields["Link"];
+
+                        <div class="col-sm-4">
+                            <a href="@(Link.GetFriendlyUrl())" title="Learn about how to use NuGet packages">
+
+                                @Html.Sitecore().Field("Image", item)
+                                <h3>
+                                    @Html.Sitecore().Field("Name", item)
+
+                                </h3>
+                            </a>
+                            @Html.Sitecore().Field("Description", item)
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </section>
+</div>
