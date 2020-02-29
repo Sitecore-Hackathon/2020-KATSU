@@ -1,0 +1,19 @@
+﻿@*TODO: Do it with Glass Mapper*@
+
+@if (Model != null)
+{
+    <div class="modal fade" id="successAlert" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center pt-50 pb-50">
+                    @Html.Sitecore().Field("Image")
+                    @Html.Sitecore().Field("Message")
+                    @Html.Sitecore().BeginField("Action Url", new { @class = "btn mb-2 btn-outline-secondary text-uppercase font-weight-bold px-5 mt-4" })
+                    @Html.Sitecore().Field("Action Title")
+                    @Html.Sitecore().EndField()
+                </div>
+            </div>
+        </div>
+    </div>
+}

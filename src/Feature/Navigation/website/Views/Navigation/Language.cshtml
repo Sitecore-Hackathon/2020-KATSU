@@ -1,0 +1,15 @@
+﻿@{
+
+    if (Sitecore.Context.Language.CultureInfo.Name.Contains("en"))
+    {
+        <a class="text-lightGray lang-switcher mr-3 font-weight-bold lang-switcher" data-lang="ar-AE" href="#">
+            @Sitecore.Globalization.Translate.Text("arabic")
+        </a>
+    }
+    else
+    {
+        <a class="text-lightGray lang-switcher mr-3 font-weight-bold lang-switcher text-capitalize" data-lang="en" href="#">
+            @Sitecore.Globalization.Translate.Text("english")
+        </a>
+    }
+}

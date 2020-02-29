@@ -1,0 +1,14 @@
+﻿---
+ID: "9605f190-8e4f-460b-924e-54523016592f"
+Parent: "95474280-0d96-430a-b110-397ebaa2692e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Navigation/_header/Items
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191209T124742Z

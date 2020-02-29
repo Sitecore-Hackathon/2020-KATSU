@@ -1,0 +1,14 @@
+﻿---
+ID: "86575395-3f53-4850-a033-68679e6198f1"
+Parent: "79bd451a-59be-4a5e-b4ac-b736c98ff3c1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/PageContent/_RichTextEditor/Rich Text Editor Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191206T174640Z

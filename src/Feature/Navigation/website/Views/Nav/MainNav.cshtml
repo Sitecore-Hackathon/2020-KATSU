@@ -1,0 +1,45 @@
+﻿@using KATSU.Feature.Navigation.ViewModels
+
+@model NavViewModel
+
+@if (Model != null)
+{
+    var active = Request.Url.AbsolutePath;
+
+    <ul class="navbar-nav">
+        @foreach (var item in Model.MenuItems)
+        {
+            if (item.SubMenuItems != null && item.SubMenuItems.Any())
+            {
+                <li class="nav-item dropdown @(item.ItemLink != null && active == item.ItemLink.Url ? "active" : "")">
+                    <a class="nav-link text-lightGray ls-1 dropdown-toggle" id="dropdown01"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="@(item.ItemLink != null ? item.ItemLink.Url : "")">
+                        @if (item.Image != null)
+                        {
+                            <img width="21" src="@item.Image.Src">
+                        }
+                        @item.LinkName
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        @foreach (var menuItem in item.SubMenuItems)
+                        {
+                            <a class="dropdown-item" href="@(menuItem.ItemLink != null ? menuItem.ItemLink.Url : "")">@menuItem.LinkName</a>
+                        }
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item @(item.ItemLink != null && active == item.ItemLink.Url ? "active" : "")">
+                    <a class="nav-link text-lightGray ls-1" href="@(item.ItemLink != null ? item.ItemLink.Url : "")">
+                        @if (item.Image != null)
+                        {
+                            <img width="21" src="@item.Image.Src">
+                        }
+                        @item.LinkName
+                    </a>
+                </li>
+            }
+        }
+    </ul>
+}

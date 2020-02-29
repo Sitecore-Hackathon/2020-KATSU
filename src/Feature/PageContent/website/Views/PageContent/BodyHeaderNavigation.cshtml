@@ -1,0 +1,13 @@
+﻿@using PSGN.Feature.PageContent.ViewModels;
+
+@model LinkItemViewModel
+
+@if (User.IsInRole("PSGN\\PSGN TEC Coordinator"))
+{
+
+    var url = Model.Link.Url + "?" + Model.Link.Query;
+    <a href = "@url" class=
+    "btn mb-2 btn-primary font-weight-bold ls-1 px-5" >
+    @Model.Name
+    </a>
+}

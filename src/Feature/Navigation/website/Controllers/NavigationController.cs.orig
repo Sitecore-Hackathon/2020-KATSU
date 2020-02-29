@@ -1,0 +1,84 @@
+using Sitecore.Mvc.Controllers;
+using System.Web.Mvc;
+using PSGN.Foundation.Core.Exceptions;
+using PSGN.Feature.Navigation.Mediators;
+using static PSGN.Feature.Navigation.Constants;
+namespace PSGN.Feature.Navigation.Controllers
+{
+    public class NavigationController : SitecoreController 
+    {
+        private readonly INavigationMediator _NavigationMediator;
+        private readonly IHeaderMediator _HeaderMediator;
+        public NavigationController(INavigationMediator NavigationMediator, IHeaderMediator HeaderMediator)
+        {
+            _NavigationMediator = NavigationMediator;
+            _HeaderMediator = HeaderMediator;
+        }
+        //Left  Navigation
+        public ActionResult Navigation()
+        {
+            var mediatorResponse = _NavigationMediator.RequestNavigationViewModel();
+            switch (mediatorResponse.Code)
+            {
+                case MediatorCodes.NavigationResponse.DataSourceError:
+                case MediatorCodes.NavigationResponse.ViewModelError:
+                    return View("~/views/Navigation/Error.cshtml");
+                case MediatorCodes.NavigationResponse.Ok:
+                    return View(mediatorResponse.ViewModel);
+                default:
+                    throw new InvalidMediatorResponseCodeException(mediatorResponse.Code);
+            }
+        }
+        // Header Navigation 
+        public ActionResult Header() 
+        {
+            var mediatorResponse = _HeaderMediator.RequestHeaderViewModel() ??_HeaderMediator.RequestHeaderViewModel();            
+            if (mediatorResponse != null)
+            {              
+                switch (mediatorResponse.Code)
+                {
+                    case MediatorCodes.HeaderResponse.DataSourceError:
+                    case MediatorCodes.HeaderResponse.ViewModelError:
+                        return View("~/views/Navigation/Error.cshtml");
+                    case MediatorCodes.HeaderResponse.Ok:
+                        return View(mediatorResponse.ViewModel);
+                    default:
+                        throw new InvalidMediatorResponseCodeException(mediatorResponse.Code);
+                }
+            }
+            else
+            {
+                return View("~/views/Navigation/header.cshtml");
+            }           
+        }
+        // Footer Navigation 
+        public ActionResult Footer()
+        {
+            var mediatorResponse = _HeaderMediator.RequestHeaderViewModel() ?? _HeaderMediator.RequestHeaderViewModel();
+            if (mediatorResponse != null)
+            {
+                switch (mediatorResponse.Code)
+                {
+                    case MediatorCodes.HeaderResponse.DataSourceError:
+                    case MediatorCodes.HeaderResponse.ViewModelError:
+                        return View("~/views/Navigation/Error.cshtml");
+                    case MediatorCodes.HeaderResponse.Ok:
+                        return View(mediatorResponse.ViewModel);
+                    default:
+                        throw new InvalidMediatorResponseCodeException(mediatorResponse.Code);
+                }
+            }
+            else
+            {
+                return View("~/views/Navigation/Footer.cshtml");
+            }
+        }
+<<<<<<< Updated upstream
+        public ActionResult Language()
+        {            
+                return View("~/views/Navigation/Language.cshtml");            
+        }
+=======
+>>>>>>> Stashed changes
+    }
+}

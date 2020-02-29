@@ -1,0 +1,18 @@
+@model PSGN.Feature.PageContent.ViewModels.ImageLinkViewModel
+@using Glass.Mapper.Sc.Web.Mvc
+
+@if (Model != null)
+{
+    if (Model.Link != null)
+    {
+        var url = Model.Link != null ? Model.Link.Url : string.Empty;
+
+        <a class="@Model.CssClass" href="@url">
+            <img src="@Model.Image.Src">
+        </a>
+    }
+    else
+    {
+        <img class="@Model.CssClass" src="@Model.Image.Src">
+    }
+}

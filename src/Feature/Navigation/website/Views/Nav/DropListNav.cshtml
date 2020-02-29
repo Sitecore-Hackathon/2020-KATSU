@@ -1,0 +1,11 @@
+﻿@using KATSU.Feature.Navigation.ViewModels
+
+@model NavViewModel
+
+@if (Model != null)
+{
+    foreach (var item in Model.MenuItems)
+    {
+        <a class="dropdown-item" href="@(item.ItemLink != null ? item.ItemLink.Url : "")">@item.LinkName</a>
+    }
+}
