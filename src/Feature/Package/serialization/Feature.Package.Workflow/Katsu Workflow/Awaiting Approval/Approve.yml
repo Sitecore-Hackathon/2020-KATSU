@@ -1,0 +1,21 @@
+﻿---
+ID: "441e7fe0-01ed-472b-989e-585dc31d4a78"
+Parent: "b4420d4b-f8f0-448f-a67a-803cc4215353"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Katsu Workflow/Awaiting Approval/Approve
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/check.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pd|+workflowCommand:execute|pe|+workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
