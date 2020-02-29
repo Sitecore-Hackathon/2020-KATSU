@@ -30,7 +30,8 @@ namespace KATSU.Feature.Package.Factories
                 Documentation = packageDataSource.Documentation,
                 IsExperienceEditor = isExperienceEditor,
                 PackageSummary = packageDataSource.Summary,
-                Contributors = string.Join(",", packageDataSource.Contributors?.Select(x=>x.Name)??Enumerable.Empty<string>())
+                Contributors = string.Join(",", packageDataSource.Contributors?.Select(x=>x.Name)??Enumerable.Empty<string>()),
+                CompatabileVersion = string.Join(",", packageDataSource.SitecoreVersion?.Select(x=>x.Version)??Enumerable.Empty<string>())
             };
         }
         

@@ -12,6 +12,12 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T201821Z
+    - ID: "322b335c-dcf3-4ecf-86e9-ed10bfc03071"
+      Hint: Contributors
+      Type: Multilist with Search
+      Value: |
+        {1EA5B4D5-7567-497F-B325-D96C440A6B73}
+        {C6607DA3-FFD6-46E8-B39E-6CCCA6C6C995}
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
