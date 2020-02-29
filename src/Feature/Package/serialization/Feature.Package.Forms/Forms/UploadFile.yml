@@ -1,0 +1,18 @@
+﻿---
+ID: "cbf7fbbc-ecc3-4785-9912-2af2eee4a512"
+Parent: "b701850a-cb8a-4943-b2bc-dddb1238c103"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: /sitecore/Forms/UploadFile
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T170553Z

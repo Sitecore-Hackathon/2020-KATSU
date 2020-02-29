@@ -12,6 +12,11 @@ namespace KATSU.Feature.Package
             public static readonly Guid TemplateId = new Guid("{E356ADF4-96CC-43AD-B1E3-BF07C32F1259}");
         }
 
+        public static class PackagesFolder
+        {
+            public static readonly Guid TemplateId = new Guid("{D4AF9C86-D432-4D16-8C32-B0D9A25DD89F}");
+        }
+
         public static class Logging
         {
             public static class Error

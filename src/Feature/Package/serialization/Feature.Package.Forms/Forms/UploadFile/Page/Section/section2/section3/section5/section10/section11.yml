@@ -1,0 +1,25 @@
+﻿---
+ID: "1919f6df-14bb-45bf-9cc6-1c77e2ebfdad"
+Parent: "180f07ed-e623-4b73-994c-53f75e3c9e4e"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: /sitecore/Forms/UploadFile/Page/Section/section2/section3/section5/section10/section11
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "col-lg-9"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 7B20A4A37E6D446D9D667C7E0FF21547
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T214428Z

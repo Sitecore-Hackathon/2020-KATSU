@@ -23,6 +23,21 @@ namespace KATSU.Feature.Package.ORM
         }
     }
 
+    public class PackageGlassMappings : SitecoreGlassMap<Models.Package>
+    {
+        public override void Configure()
+        {
+            Map(config =>
+            {
+                config.AutoMap();
+                config.TemplateId(Constants.Package.TemplateId);
+                config.Field(f => f.PackageName).FieldName("Package Name");
+                config.Field(f => f.PackageIdentifier).FieldName("Package Identifier");
+                config.Field(f => f.PackageFile).FieldName("Package File");
+            });
+        }
+    }
+
     public class GlassBaseMappings : SitecoreGlassMap<IPackageGlassBase>
     {
         public override void Configure()
@@ -30,6 +45,18 @@ namespace KATSU.Feature.Package.ORM
             Map(config =>
             {
                 config.AutoMap();
+            });
+        }
+    }
+
+    public class IPackagesFolderGlassBaseMappings : SitecoreGlassMap<IPackagesFolder>
+    {
+        public override void Configure()
+        {
+            Map(config =>
+            {
+                config.AutoMap();
+                config.TemplateId(Constants.Package.TemplateId);
             });
         }
     }

@@ -1,0 +1,31 @@
+﻿---
+ID: "f29e955b-3857-41ab-b0ae-3e1a59a396ae"
+Parent: "958c20bb-217b-478c-a8b7-6a15e0cc9213"
+Template: "94a46d66-b1b8-405d-aae4-7b5a9cd61c5e"
+Path: /sitecore/Forms/UploadFile/Page/Section/section2/section3/section5/Section(2)/Submit
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "btn btn-primary legitRipple"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: DD68C099EB824909B33092A36DB81A74
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T215341Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Submit

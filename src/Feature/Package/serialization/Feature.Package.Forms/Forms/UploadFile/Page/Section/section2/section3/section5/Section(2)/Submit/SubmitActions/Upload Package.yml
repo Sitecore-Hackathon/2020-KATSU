@@ -1,0 +1,29 @@
+﻿---
+ID: "0ba47d2b-7de0-4651-8314-5719aa38587e"
+Parent: "1d5c9ff1-ccef-4cbe-958c-81ee3e07c59f"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: /sitecore/Forms/UploadFile/Page/Section/section2/section3/section5/Section(2)/Submit/SubmitActions/Upload Package
+DB: master
+SharedFields:
+- ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
+  Hint: Parameters
+  Value: |
+    {"fileFieldId":"ba5cb61c-3d94-4ec7-9bd3-c0c4ed6145c1","packageIdentifierFieldId":"bce9d3bb-0dfc-4bfb-84e5-5c34183b06c3","packageNameFieldId":"1fb8e590-e436-4e47-ac3e-86d5b81cfef8"}
+- ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
+  Hint: Submit Action
+  Value: "{DA89FBA4-A2FA-4D6C-89EB-03644B165FDC}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T215341Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
