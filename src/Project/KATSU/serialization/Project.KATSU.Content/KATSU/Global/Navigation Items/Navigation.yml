@@ -4,6 +4,10 @@ Parent: "c30f9913-5898-4781-bcc0-923b0bfd519b"
 Template: "19ff56a3-ba5e-4999-b85b-56cb5d3ac908"
 Path: /sitecore/content/KATSU/Global/Navigation Items/Navigation
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: "ar-AE"
   Versions:
@@ -45,9 +49,9 @@ Languages:
       Type: Multilist
       Value: |
         {D24F1F3E-49DF-4436-BC34-13057C07538B}
-        {8E669DE0-D85D-40A8-8E29-AE21A3C30665}
-        {213E42F0-0815-4421-81DE-64D470E73D15}
         {B2814734-FD04-4B76-9C96-E8E0D384BA34}
+        {213E42F0-0815-4421-81DE-64D470E73D15}
+        {8E669DE0-D85D-40A8-8E29-AE21A3C30665}
     - ID: "876db511-15f6-4c95-ab6d-b5e9f1ecc8f0"
       Hint: Footer Items
       Type: Multilist

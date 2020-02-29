@@ -4,6 +4,10 @@ Parent: "c30f9913-5898-4781-bcc0-923b0bfd519b"
 Template: "5cba98bb-6ad1-4058-842b-ca459d5a9972"
 Path: /sitecore/content/KATSU/Global/Navigation Items/Footer Items
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: "ar-AE"
   Versions:
