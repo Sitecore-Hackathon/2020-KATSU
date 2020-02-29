@@ -1,0 +1,21 @@
+﻿---
+ID: "e43837f9-a79c-4e86-832e-39df26345974"
+Parent: "499b95bd-b5f5-4221-b054-af0ab8ddd277"
+Template: "3814fbfc-17a7-4785-b408-03bf2d3bc673"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Footer Items/DMCA Notice
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T105506Z
+    - ID: "fd3b5df7-cd09-420c-bc2e-5c33b84c26f8"
+      Hint: Name
+      Value: DMCA Notice

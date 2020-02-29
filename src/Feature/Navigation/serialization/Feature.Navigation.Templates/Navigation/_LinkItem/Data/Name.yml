@@ -1,16 +1,13 @@
 ﻿---
-ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
-Parent: "163821ec-d0c2-40fc-bc80-d31d92138aa5"
+ID: "fd3b5df7-cd09-420c-bc2e-5c33b84c26f8"
+Parent: "4b628177-7e15-42b2-9a38-77dd1e9f57b2"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Navigation/_header/Language/Language
+Path: /sitecore/templates/Feature/Navigation/_LinkItem/Data/Name
 DB: master
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: /sitecore/content/KATSU/Global/Navigation Items/Language
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Multilist
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -21,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20191210T112140Z
+      Value: 20200229T104008Z

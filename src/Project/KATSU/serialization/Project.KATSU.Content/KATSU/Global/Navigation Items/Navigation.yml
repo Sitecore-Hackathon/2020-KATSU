@@ -1,0 +1,60 @@
+﻿---
+ID: "7bb4ef35-a199-4171-b2e6-d5a1c64de176"
+Parent: "c30f9913-5898-4781-bcc0-923b0bfd519b"
+Template: "19ff56a3-ba5e-4999-b85b-56cb5d3ac908"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Navigation
+DB: master
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191223T102225Z
+    - ID: "586da53d-b92c-4edd-b31f-c5cb7130abd0"
+      Hint: Header Items
+      Type: Multilist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "876db511-15f6-4c95-ab6d-b5e9f1ecc8f0"
+      Hint: Footer Items
+      Type: Multilist
+      Value: 
+    - ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
+      Hint: Language
+      Type: Multilist
+      Value: |
+        {14EC67EF-0357-4E6A-B380-76571B35482B}
+        {D53DB93D-BB93-4733-A5EB-0144CC188402}
+    - ID: "ca32fbbd-4e65-49fe-a6be-6c1ad6c1436a"
+      Hint: Copyrights
+      Value: حقوق التأليف والنشر © 2019 المجلس التنفيذي لدبي. كل الحقوق محفوظة
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191223T100715Z
+    - ID: "586da53d-b92c-4edd-b31f-c5cb7130abd0"
+      Hint: Header Items
+      Type: Multilist
+      Value: "{D24F1F3E-49DF-4436-BC34-13057C07538B}"
+    - ID: "876db511-15f6-4c95-ab6d-b5e9f1ecc8f0"
+      Hint: Footer Items
+      Type: Multilist
+      Value: |
+        {109EBBD1-C24C-490F-8905-A254003A561B}
+        {7ECDB7B7-BB79-4870-8FF9-51C87C1C004C}
+        {CF98CC30-3959-485B-AFAD-7C45C74F1ED8}
+        {E43837F9-A79C-4E86-832E-39DF26345974}
+    - ID: "89a79be7-76a2-43f5-802c-35aa39fe82b8"
+      Hint: Language
+      Type: Multilist
+      Value: |
+        {14EC67EF-0357-4E6A-B380-76571B35482B}
+        {D53DB93D-BB93-4733-A5EB-0144CC188402}

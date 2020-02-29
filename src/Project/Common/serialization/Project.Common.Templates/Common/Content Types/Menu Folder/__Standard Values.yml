@@ -1,0 +1,23 @@
+﻿---
+ID: "3bc71c85-91b3-487b-86d3-ff6811da5a69"
+Parent: "9ce63d6e-6cd8-4a5c-9e7b-1c5c39c1e24f"
+Template: "9ce63d6e-6cd8-4a5c-9e7b-1c5c39c1e24f"
+Path: /sitecore/templates/Project/Common/Content Types/Menu Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{7B937A3D-EEF5-4F61-BCF8-7436FAC48F18}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200102T125655Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
