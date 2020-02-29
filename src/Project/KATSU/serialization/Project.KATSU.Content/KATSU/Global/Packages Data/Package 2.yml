@@ -25,7 +25,7 @@ Languages:
     - ID: "875a6a08-1ead-43a9-9d3b-cc1153c07fd3"
       Hint: Package File
       Value: |
-        <file mediaid="{4FF9E8CB-CAAB-4311-B20C-C7AB6FF1DC9C}" src="-/media/4FF9E8CBCAAB4311B20CC7AB6FF1DC9C.ashx" mediapath="/Project/KATSU/Packages/sampletest/2/sampletest" />
+        <file mediapath="/Project/KATSU/Packages/sampletest/2/sampletest" mediaid="{4FF9E8CB-CAAB-4311-B20C-C7AB6FF1DC9C}" src="-/media/4FF9E8CBCAAB4311B20CC7AB6FF1DC9C.ashx" />
     - ID: "b8c0ff08-b52f-4fed-b2a3-a9bf2f3af56e"
       Hint: Package Name
       Value: Package 1
