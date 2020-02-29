@@ -8,13 +8,13 @@ The Solution tries to enhance the current Marketplace website by enabling the Si
 
 This solution consists of two parts
 
-#####1. Sample Marketplace website
+##1. Sample Marketplace website
 
 The new sample website enable contributors to upload their module package. Each new module will go through a certain workflow. 
 
 The website also uses Sitecore CMS with Solr to enhance search experiences for users. The solution is trying to exploit as much as possible of Sitecore services to insure the maximum reusability and maintainability of the system with providing the optimum workflow for Sitecore developers.
 
-#####2. Marketplace Installer Module
+##2. Marketplace Installer Module
 
 The Marketplace Installer Module tries to help developers with installing marketplace Sitecore packages, and save their time downloading and installing packages by providing a simple interface to install package by name.
 
