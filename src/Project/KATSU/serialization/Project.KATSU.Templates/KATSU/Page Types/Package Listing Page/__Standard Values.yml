@@ -1,0 +1,37 @@
+﻿---
+ID: "37f439d1-12a7-4428-8872-e5762c0f3f74"
+Parent: "fcf4da28-edaa-4638-9442-1a5404eea642"
+Template: "fcf4da28-edaa-4638-9442-1a5404eea642"
+Path: /sitecore/templates/Project/KATSU/Page Types/Package Listing Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{C8FF9FF1-8340-4304-9FA2-3E710582DF06}">
+        <r
+          id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
+          ph="main"
+          uid="{7DCE2A09-64D7-44C1-A4F2-EA913B7DD2C3}" />
+        <r
+          id="{AE02754C-CD48-4A93-8D86-D00512C1CF02}"
+          ph="main"
+          uid="{B2A12587-16D6-43C5-8B9E-26A99721C4C9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T145012Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

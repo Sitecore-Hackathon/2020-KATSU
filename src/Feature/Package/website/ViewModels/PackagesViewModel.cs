@@ -8,6 +8,7 @@ namespace KATSU.Feature.Package.ViewModels
     {
         public IEnumerable<PackageViewModel> Packages { get; set; }
         public bool IsExperienceEditor { get; set; }
+        public int TotalResults { get; set; }
     }
 
 }
