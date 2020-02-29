@@ -5,6 +5,10 @@ Template: "d62e18f4-b43a-4828-abcd-6e573b5104ca"
 Path: /sitecore/templates/Project/KATSU/Page Types/Home Page/__Standard Values
 DB: master
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FCF4DA28-EDAA-4638-9442-1A5404EEA642}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout

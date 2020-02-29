@@ -22,7 +22,7 @@
                         Sitecore.Data.Fields.LinkField Link = item.Fields["Link"];
 
                         <div class="col-sm-4">
-                            <a href="@(Link.Url)" title="Learn about how to use NuGet packages">
+                            <a href="@(Link.GetFriendlyUrl())" title="Learn about how to use NuGet packages">
 
                                 @Html.Sitecore().Field("Image", item)
                                 <h3>
