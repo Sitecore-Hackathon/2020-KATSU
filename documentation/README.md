@@ -4,28 +4,34 @@
 
 **Category:** Sitecore Marketplace Website
 
+The Solution tries to enhance the current Marketplace website by enabling the Sitecore developers and community to install packages directly from the Sitecore instance 
+
 This solution consists of two parts
-1- A new look for the Marketplace website
-2- Marketplace Installer Module
 
-The Marketplace Installer Module tries to help developers with installing marketplace sitecore packages, and save their time downloading and installign packages by providing a simple interface to install package by name and version.
+**1. Sample Marketplace website**
 
-This moule acts as a client side module that can be downloaded on any sitecore instances and uses the new Marketplace website as serverside.
+The new sample website enable contributors to upload their module package. Each new module will go through a certain workflow. 
 
-The enhancements on the Marketplace are building a new API to provide pacages to the Marketplace Installer Module. Additionally, provide a new looks and feels for the Marketplace website.
+The website also uses Sitecore CMS with Solr to enhance search experiences for users. The solution is trying to exploit as much as possible of Sitecore services to insure the maximum reusability and maintainability of the system with providing the optimum workflow for Sitecore developers.
 
-The website also uses Sitecore CMS with Solr to inhance search experiences for users. The soution is trying to exploit as much as possible of Sitecore services to insure the maximum reusibility and maintainability of the system with providing the optimum workflow for Sitecore developers.
+**2. Marketplace Installer Module**
+
+The Marketplace Installer Module tries to help developers with installing marketplace Sitecore packages, and save their time downloading and installing packages by providing a simple interface to install package by name.
+
+This module is built on top of Sitecore Powershell Extension Module.
 
 The two parts of this solution intend to simplify a developers task by helping them find the best match marketplace module and minimize the steps to install the correct package.
 
 
 ## Pre-requisites
-Marketplace Installer Module
-- Sitecore 9.3 
-- Sitecore powershell Extension v6
 
-Marketplace website
--Sitecore 9.3
+###Marketplace Installer Module
+- Sitecore 9.3 
+- Sitecore Powershell Extension -version 6
+- Marketplace new sample website
+
+###Marketplace website
+- Sitecore 9.3
 
 ## Installation
 
@@ -57,22 +63,53 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+####Marketplace website
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+The sample website will contains the following
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
+**Home Page**
 
-You can embed images of different formats too:
+The main page in the website contains navigation items to other parts of the website
+![Home Page](images/home.png?raw=true "Home Page")
 
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
+**Contribute Page**
+Contribute pages allows Sitecore community members to upload a new module package. 
 
-And you can embed external images too:
+![Contribute Page](images/cont.png?raw=true "Contribute Page")
 
-![Random](https://placeimg.com/480/240/any "Random")
+The submitted packages will be saved as Sitecore items in Sitecore tree. 
+
+![Sitecore Tree](images/SitecoreTree.png?raw=true "Sitecore Tree")
+
+The packages will go through a specific workflow before sharing with the community.
+
+![Wokflow](images/Workflow.png?raw=true "Wokflow")
+
+
+The approved packages will now be available in *Discover Page*
+
+**Discover Page**
+
+This page is used to search for available packages.
+A list of packages is displayed based on search keyword.
+![Discover Page](images/disc.png?raw=true "Discover Page")
+
+
+**Details Page**
+
+This page shows all package details. Also, a download link is available if a user prefers traditional package installation. 
+
+![Details Page](images/details.png?raw=true "Details Page")
+
+
+##Enhancements
+
+The following are the planed enhancments on this solution 
+
+1. Create an API to be used by th module 
+2. User Account Management
+3. Improvement on security and workflow mangement 
+4. Provide versioning for packages
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)

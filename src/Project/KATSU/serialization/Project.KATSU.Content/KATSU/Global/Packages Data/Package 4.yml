@@ -1,0 +1,21 @@
+﻿---
+ID: "074fb21d-c434-4ad5-8278-7539bb053cf8"
+Parent: "dc3efa0c-e4fd-4fb8-aba2-61d32567e426"
+Template: "e356adf4-96cc-43ad-b1e3-bf07c32f1259"
+Path: /sitecore/content/KATSU/Global/Packages Data/Package 4
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T225954Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"

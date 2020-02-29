@@ -16,6 +16,9 @@ Languages:
       Hint: Contributors
       Type: Multilist with Search
       Value: "{C6607DA3-FFD6-46E8-B39E-6CCCA6C6C995}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -29,10 +32,18 @@ Languages:
     - ID: "875a6a08-1ead-43a9-9d3b-cc1153c07fd3"
       Hint: Package File
       Value: |
-        <file mediaid="{4FF9E8CB-CAAB-4311-B20C-C7AB6FF1DC9C}" src="-/media/4FF9E8CBCAAB4311B20CC7AB6FF1DC9C.ashx" mediapath="/Project/KATSU/Packages/sampletest/2/sampletest" />
+        <file mediapath="/Project/KATSU/Packages/sampletest/2/sampletest" mediaid="{4FF9E8CB-CAAB-4311-B20C-C7AB6FF1DC9C}" src="-/media/4FF9E8CBCAAB4311B20CC7AB6FF1DC9C.ashx" />
     - ID: "b8c0ff08-b52f-4fed-b2a3-a9bf2f3af56e"
       Hint: Package Name
       Value: Package 2
     - ID: "c82252e5-fe88-484d-926c-9f47c5c2db03"
       Hint: Summary
       Value: Summary
+    - ID: "f730deaa-7083-4fab-98fe-8d9994f0d611"
+      Hint: Compatible Versions
+      Type: Multilist with Search
+      Value: |
+        {B4B62B0B-2834-47EA-A9B9-45D94C1D2112}
+        {657C6B90-31FB-4DBB-9838-4B3172FB853E}
+        {B01FF5E7-FF46-4559-8DF6-9A58FDF48333}
+        {A51D77B2-CE10-40DB-8CAC-A18587A176C6}

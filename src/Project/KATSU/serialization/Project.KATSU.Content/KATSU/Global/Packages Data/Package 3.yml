@@ -1,8 +1,8 @@
 ﻿---
-ID: "79210e77-9259-4db1-aeb2-cbb0647cd49f"
-Parent: "e356adf4-96cc-43ad-b1e3-bf07c32f1259"
+ID: "f9cfc977-0f83-4046-89a4-465a07bafc58"
+Parent: "dc3efa0c-e4fd-4fb8-aba2-61d32567e426"
 Template: "e356adf4-96cc-43ad-b1e3-bf07c32f1259"
-Path: /sitecore/templates/Feature/Package/Package/__Standard Values
+Path: /sitecore/content/KATSU/Global/Packages Data/Package 3
 DB: master
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
@@ -18,11 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T202531Z
+      Value: 20200229T225812Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: 
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\Admin
