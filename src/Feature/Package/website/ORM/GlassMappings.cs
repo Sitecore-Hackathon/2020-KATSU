@@ -17,6 +17,8 @@ namespace KATSU.Feature.Package.ORM
                 config.Field(f => f.Documentation).FieldName("Documentation");
                 config.Field(f => f.Contributors).FieldName("Contributor");
                 config.Field(f => f.SitecoreVersion).FieldName("Compatible Versions");
+                config.Field(f => f.Summary).FieldName("Summary");
+
             });
         }
     }

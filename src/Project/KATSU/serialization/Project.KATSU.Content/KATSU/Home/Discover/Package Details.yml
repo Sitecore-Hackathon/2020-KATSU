@@ -1,8 +1,8 @@
 ﻿---
-ID: "d778dd38-e4a0-4654-b1e4-14d8a41920b7"
-Parent: "c524f79c-6e73-4cb3-b471-6c8a1ff701ab"
+ID: "c2ebd3c7-08c4-4464-a5b3-55097ad5e2b7"
+Parent: "d778dd38-e4a0-4654-b1e4-14d8a41920b7"
 Template: "fcf4da28-edaa-4638-9442-1a5404eea642"
-Path: /sitecore/content/KATSU/Home/Discover
+Path: /sitecore/content/KATSU/Home/Discover/Package Details
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
@@ -14,14 +14,9 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{731497DA-4668-4650-BDD1-EB47FC17CBD7}"
+          uid="{22BC0CE7-6A92-4FD8-A7DA-7F3B445BC50D}"
           p:before="*"
-          s:id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
-          s:ph="main" />
-        <r
-          uid="{DFF62189-81E8-4360-953E-9BBDE381786C}"
-          p:after="r[@uid='{731497DA-4668-4650-BDD1-EB47FC17CBD7}']"
-          s:id="{AE02754C-CD48-4A93-8D86-D00512C1CF02}"
+          s:id="{BFC5C780-3D4C-45DE-9FE8-1516378C01B5}"
           s:ph="main" />
       </d>
     </r>
@@ -32,4 +27,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T192835Z
+      Value: 20200229T201006Z

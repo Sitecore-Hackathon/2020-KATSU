@@ -26,9 +26,12 @@ namespace KATSU.Feature.Package.Factories
                 Id = packageDataSource.Id.ToString(),
                 PackageName = packageDataSource.PackageName,
                 PackageIdentifier = packageDataSource.PackageIdentifier,
-                PackageFile = packageDataSource.PackageFile,
+                PackageFile = packageDataSource.PackageFile.Src,
                 Documentation = packageDataSource.Documentation,
-                IsExperienceEditor = isExperienceEditor
+                IsExperienceEditor = isExperienceEditor,
+                PackageSummary = packageDataSource.Summary,
+                Contributors = string.Join(",", packageDataSource.Contributors?.Select(x=>x.Name)??Enumerable.Empty<string>()),
+                CompatabileVersion = string.Join(",", packageDataSource.SitecoreVersion?.Select(x=>x.Version)??Enumerable.Empty<string>())
             };
         }
         

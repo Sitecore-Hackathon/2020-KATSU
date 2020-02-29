@@ -14,14 +14,11 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{24D158E5-9331-4ADD-B3F5-7E5C2E5DB560}"
-          p:after="r[@uid='{9F9521DC-361E-428F-8340-416146A41EE0}']"
-          s:id="{810CFDAD-C295-4082-BCC2-492A45BAB340}"
-          s:ph="main" />
-        <r
-          uid="{3D8EB6C0-F866-435F-A3E0-0E5E58954C53}"
+          uid="{9BD7C609-9D81-406E-BCE1-9344B70FEBF1}"
           p:after="*[1=2]"
-          s:id="{AE02754C-CD48-4A93-8D86-D00512C1CF02}"
+          s:ds="{CBF7FBBC-ECC3-4785-9912-2AF2EEE4A512}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
           s:ph="main" />
       </d>
     </r>

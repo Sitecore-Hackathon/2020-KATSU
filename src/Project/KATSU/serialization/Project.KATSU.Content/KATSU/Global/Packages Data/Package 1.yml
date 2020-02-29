@@ -12,6 +12,12 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T201821Z
+    - ID: "322b335c-dcf3-4ecf-86e9-ed10bfc03071"
+      Hint: Contributors
+      Type: Multilist with Search
+      Value: |
+        {1EA5B4D5-7567-497F-B325-D96C440A6B73}
+        {C6607DA3-FFD6-46E8-B39E-6CCCA6C6C995}
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -25,7 +31,7 @@ Languages:
     - ID: "875a6a08-1ead-43a9-9d3b-cc1153c07fd3"
       Hint: Package File
       Value: |
-        <file mediaid="{4FF9E8CB-CAAB-4311-B20C-C7AB6FF1DC9C}" src="-/media/4FF9E8CBCAAB4311B20CC7AB6FF1DC9C.ashx" />
+        <file mediaid="{C1F48584-E79D-4477-B6A4-973988B18825}" src="-/media/C1F48584E79D4477B6A4973988B18825.ashx" />
     - ID: "b8c0ff08-b52f-4fed-b2a3-a9bf2f3af56e"
       Hint: Package Name
       Value: Package 1

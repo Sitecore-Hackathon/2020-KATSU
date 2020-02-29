@@ -12,6 +12,7 @@ namespace KATSU.Foundation.Enumeration
             {
                 config.AutoMap();
                 config.TemplateId(Constants.SitecoreVersion.TemplateId);
+                config.Field(f => f.Version).FieldName("Sitecore Version Name");
             });
         }
     }
