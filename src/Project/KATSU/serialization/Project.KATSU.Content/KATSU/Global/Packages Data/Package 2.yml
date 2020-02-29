@@ -16,6 +16,9 @@ Languages:
       Hint: Contributors
       Type: Multilist with Search
       Value: "{C6607DA3-FFD6-46E8-B39E-6CCCA6C6C995}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
