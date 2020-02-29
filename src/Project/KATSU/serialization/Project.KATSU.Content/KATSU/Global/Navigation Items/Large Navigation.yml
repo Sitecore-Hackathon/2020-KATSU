@@ -1,8 +1,8 @@
 ﻿---
-ID: "7bb4ef35-a199-4171-b2e6-d5a1c64de176"
+ID: "04f03835-ca77-4a54-895b-2e60ff3cb56d"
 Parent: "c30f9913-5898-4781-bcc0-923b0bfd519b"
-Template: "19ff56a3-ba5e-4999-b85b-56cb5d3ac908"
-Path: /sitecore/content/KATSU/Global/Navigation Items/Navigation
+Template: "60ae2837-f0d6-492a-94d2-1bb5ec939cc5"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Large Navigation
 DB: master
 Languages:
 - Language: "ar-AE"
@@ -44,10 +44,16 @@ Languages:
       Hint: Header Items
       Type: Multilist
       Value: |
-        {D24F1F3E-49DF-4436-BC34-13057C07538B}
         {8E669DE0-D85D-40A8-8E29-AE21A3C30665}
         {213E42F0-0815-4421-81DE-64D470E73D15}
         {B2814734-FD04-4B76-9C96-E8E0D384BA34}
+    - ID: "6ac28d8f-15c3-4ccd-865d-4934d6b5d468"
+      Hint: Related Item
+      Type: Multilist
+      Value: |
+        {B2814734-FD04-4B76-9C96-E8E0D384BA34}
+        {213E42F0-0815-4421-81DE-64D470E73D15}
+        {8E669DE0-D85D-40A8-8E29-AE21A3C30665}
     - ID: "876db511-15f6-4c95-ab6d-b5e9f1ecc8f0"
       Hint: Footer Items
       Type: Multilist
@@ -60,3 +66,13 @@ Languages:
       Hint: Language
       Type: Multilist
       Value: 
+    - ID: "d169095c-15c9-416a-9292-dd9f0fb14608"
+      Hint: Summary
+      Value: |
+                <p>
+                                Become a member, and get more out of the marketplace ...
+                                Discover all the modules available for Sitecore and find the ones for the site that you are building.
+                            </p>
+    - ID: "f8f19c5e-abf6-42e1-8683-f34bd0163b17"
+      Hint: Title
+      Value: "What is Sitecore Marketplce ?"

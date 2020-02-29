@@ -1,0 +1,17 @@
+﻿---
+ID: "e02ab235-db69-43aa-a6cd-16d45d5510eb"
+Parent: "60ae2837-f0d6-492a-94d2-1bb5ec939cc5"
+Template: "60ae2837-f0d6-492a-94d2-1bb5ec939cc5"
+Path: /sitecore/templates/Project/Common/Content Types/Large Navigation/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191223T075114Z
+    - ID: "ca32fbbd-4e65-49fe-a6be-6c1ad6c1436a"
+      Hint: Copyrights
+      Value: "COPYRIGHT © 1999-2020 SITECORE"

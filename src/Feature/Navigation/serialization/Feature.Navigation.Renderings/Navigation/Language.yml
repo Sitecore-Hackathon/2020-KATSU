@@ -10,8 +10,7 @@ SharedFields:
   Value: 
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
-  Value: |
-    <image mediaid="{EA2CE925-B206-4D78-A2B2-CF4ED1427700}" />
+  Value: 
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: Language

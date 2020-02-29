@@ -1,0 +1,34 @@
+﻿---
+ID: "8e669de0-d85d-40a8-8e29-ae21a3c30665"
+Parent: "09ce0c89-a9ca-44d1-bc72-8ce9b2d97946"
+Template: "3814fbfc-17a7-4785-b408-03bf2d3bc673"
+Path: /sitecore/content/KATSU/Global/Navigation Items/Header Items/Community
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T111022Z
+    - ID: "49fddaf0-02d8-4a3b-a291-41acee1191d9"
+      Hint: Image
+      Value: |
+        <image mediaid="{5355305A-420F-4395-AF6D-42A80DD08B0B}" />
+    - ID: "a2b7e8ec-8ab4-4e66-b042-d5cddddf9125"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://community.sitecore.net/" anchor="" target="" />
+    - ID: "f61ff6d4-9b90-4844-9b32-08ef91cc3718"
+      Hint: Description
+      Value: |
+        <p> Engage with the Sitecore community <br />
+        The marketplace thrives on developers contributing modules, so if you have a cool module that you wish to share with the community you should read on.</p>
+    - ID: "fd3b5df7-cd09-420c-bc2e-5c33b84c26f8"
+      Hint: Name
+      Value: Community
