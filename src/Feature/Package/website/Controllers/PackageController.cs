@@ -30,8 +30,11 @@ namespace KATSU.Feature.Package.Controllers
         }
 
         [HttpGet]
-        public ActionResult PackageDetails(string id)
+        public ActionResult PackageDetails(string id = null, bool isNew = false)
         {
+            if (id == null)
+                return View("~/views/Package/Error.cshtml");
+
             var mediatorResponse = _packageMediator.RequestPackageDetailsViewModel(id);
 
             switch (mediatorResponse.Code)

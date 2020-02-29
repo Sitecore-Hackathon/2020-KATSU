@@ -7,15 +7,20 @@
     <div class="row">
         <div class="col-12 col-lg-12">
             <div class="card card-body">
-                <h5 class="font-weight-semibold">Limitless UI kit</h5>
-                <p class="mb-3">In post mean shot ye. There out her child sir his lived. Design at uneasy me season of branch on praise esteem. Abilities discourse believing consisted remaining to no. Mistaken no me denoting dashwood as screened. Whence or esteem easily he on. Dissuade husbands at of no if disposal. Oh he decisively impression attachment friendship so if everything.</p>
+            <h5 class="font-weight-semibold">@Model.PackageName</h5>
+            <p class="mb-3">@Model.PackageSummary</p>
 
+            @if (!string.IsNullOrEmpty(Model.Contributors))
+            {
                 <ul class="list mb-3">
-                    <li><span class="font-weight-semibold">Package Name:</span> <a href="#">@Model.PackageName</a></li>
-                    <li><span class="font-weight-semibold">Package Identifier:</span> @Model.PackageIdentifier</li>
-                    <li><span class="font-weight-semibold"></span> <a href="@Model.PackageFile">Download</a></li>
+                    <li><span class="font-weight-semibold">Contributors:</span> @Model.Contributors</li>
                 </ul>
+            }
 
+            @if (!string.IsNullOrEmpty(Model.PackageFile))
+            {
+                <p><a href="@Model.PackageFile"> Download</a></p>
+            }
             </div>
         </div>
     </div>

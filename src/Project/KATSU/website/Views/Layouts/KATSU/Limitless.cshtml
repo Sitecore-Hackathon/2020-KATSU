@@ -5,5 +5,11 @@
 }
 
 @Html.Sitecore().Placeholder("header")
-@Html.Sitecore().Placeholder("main")
+<div class="page-content">
+    <div class="content-wrapper">
+        <div class="content">
+            @Html.Sitecore().Placeholder("main")
+        </div>
+    </div>
+</div>
 @Html.Sitecore().Placeholder("footer")
