@@ -8,13 +8,13 @@ The Solution tries to enhance the current Marketplace website by enabling the Si
 
 This solution consists of two parts
 
-##1. Sample Marketplace website
+**1. Sample Marketplace website**
 
 The new sample website enable contributors to upload their module package. Each new module will go through a certain workflow. 
 
 The website also uses Sitecore CMS with Solr to enhance search experiences for users. The solution is trying to exploit as much as possible of Sitecore services to insure the maximum reusability and maintainability of the system with providing the optimum workflow for Sitecore developers.
 
-##2. Marketplace Installer Module
+**2. Marketplace Installer Module**
 
 The Marketplace Installer Module tries to help developers with installing marketplace Sitecore packages, and save their time downloading and installing packages by providing a simple interface to install package by name.
 
@@ -25,12 +25,12 @@ The two parts of this solution intend to simplify a developers task by helping t
 
 ## Pre-requisites
 
-####Marketplace Installer Module
+###Marketplace Installer Module
 - Sitecore 9.3 
 - Sitecore Powershell Extension -version 6
 - Marketplace new sample website
 
-####Marketplace website
+###Marketplace website
 - Sitecore 9.3
 
 ## Installation
@@ -70,25 +70,46 @@ The sample website will contains the following
 **Home Page**
 
 The main page in the website contains navigation items to other parts of the website
+![Home Page](images/home.png?raw=true "Home Page")
 
 **Contribute Page**
-Contribute pages allows Sitecore community members to upload a new module package. The submitted packages will be saved as Sitecore items in Sitecore tree. The packages will go through a specific workflow before sharing with the community.
+Contribute pages allows Sitecore community members to upload a new module package. 
 
+![Contribute Page](images/cont.png?raw=true "Contribute Page")
+
+The submitted packages will be saved as Sitecore items in Sitecore tree. 
+
+![Sitecore Tree](images/SitecoreTree.png?raw=true "Sitecore Tree")
+
+The packages will go through a specific workflow before sharing with the community.
+
+![Wokflow](images/Workflow.png?raw=true "Wokflow")
+
+
+The approved packages will now be available in *Discover Page*
 
 **Discover Page**
 
 This page is used to search for available packages.
 A list of packages is displayed based on search keyword.
+![Discover Page](images/disc.png?raw=true "Discover Page")
 
 
 **Details Page**
 
 This page shows all package details. Also, a download link is available if a user prefers traditional package installation. 
 
+![Details Page](images/details.png?raw=true "Details Page")
 
-![Random](https://placeimg.com/480/240/any "Random")
 
 ##Enhancements
+
+The following are the planed enhancments on this solution 
+
+1. Create an API to be used by th module 
+2. User Account Management
+3. Improvement on security and workflow mangement 
+4. Provide versioning for packages
 
 ## Video
 
