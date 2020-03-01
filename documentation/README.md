@@ -35,29 +35,63 @@ The two parts of this solution intend to simplify a developers task by helping t
 
 ## Installation
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+The installation packages are available in this repository in the following path 
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+*/sc.package*
+
+### Marketplace website
+
+1. Install a clean Sitecore instance version 9.3
+2. Install pckage */sc.package/KATSU-1.zip* using Installation Wizard - overite all 
+
+### Marketplace Installer Module
+
+1. Install a clean Sitecore instance version 9.3
+2. Install Sitecore Poweshell Extension Module version 6
+3. Install */sc.package/KATSU-1.zip* using Installation Wizard
+ 
+Check the configuration section for after installation steps 
+
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
+#### Marketplace website
 
-Remember you are using Markdown, you can provide code samples too:
+Change the site configuration with the correct instance name 
+
+*2020-KATSU/src/Project/KATSU/website/App_Config/Include/Project/Project.KATSU.config*
 
 ```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
   <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
+    <sites>
+      <site name="KATSU" patch:after="site[@name='modules_website']" targetHostName="$(rootHostName).sc.dev.local"
+            enableTracking="true" virtualFolder="/" physicalFolder="/" rootPath="/sitecore/content/KATSU"
+            dictionaryDomain="{8AC9D0C5-F969-4CFD-B0B3-4554638069A7}" startItem="/home" database="web"
+            domain="extranet" allowDebug="true" cacheHtml="true" htmlCacheSize="50MB" registryCacheSize="0"
+            viewStateCacheSize="0" xslCacheSize="25MB" filteredItemsCacheSize="10MB" enablePreview="true"
+            enableWebEdit="true" enableDebugger="true" disableClientData="false" cacheRenderingParameters="true"
+            renderingParametersCacheSize="10MB" language="en" patch:source="Sitecore.LanguageFallback.config"
+            itemwebapi.mode="Off" itemwebapi.access="ReadOnly" itemwebapi.allowanonymousaccess="false"
+            enableItemLanguageFallback="false" enableFieldLanguageFallback="false" />
+    </sites>
   </sitecore>
+</configuration>
+```
+
+#### Marketplace Installer Module
+
+The Marketplace Installer Module uses this setting "KATSU.Marketplace.Url"  should contain the sampl website url 
+After installing the module package check the settings under file *Feature.MarketplaceInstaller.config*
+
+Example
+```xml
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+    <sitecore>
+        <settings>
+            <setting name="KATSU.Marketplace.Url" value="https://katsu.dev.local/-/media/Project/KATSU/Packages/" />
+        </settings>
+    </sitecore>
 </configuration>
 ```
 
@@ -136,4 +170,5 @@ The following are the planed enhancments on this solution
 ## Video
 
 Following is a youtube video that explains our feature:
+
 [![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/sBm7SLdjieM/0.jpg)](https://www.youtube.com/watch?v=sBm7SLdjieM)
