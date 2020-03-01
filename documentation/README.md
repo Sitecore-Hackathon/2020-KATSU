@@ -42,7 +42,8 @@ The installation packages are available in this repository in the following path
 ### Marketplace website
 
 1. Install a clean Sitecore instance version 9.3
-2. Install pckage */sc.package/KATSU-1.zip* using Installation Wizard - overite all 
+2. Install pckage */sc.package/KATSU-1.zip* using Installation Wizard 
+3. For dll choose No to All and for Sitecore Items choose overite all 
 
 ### Marketplace Installer Module
 
